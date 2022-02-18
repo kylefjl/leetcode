@@ -52,7 +52,6 @@ public:
             end -= 1;
         }
     }
-
     void rotate(vector<int>& nums, int k) {
         k %= nums.size();
         reverse(nums, 0, nums.size() - 1);
