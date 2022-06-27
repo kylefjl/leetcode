@@ -3,7 +3,7 @@
 ///////////////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
-#include < vector> 
+#include <vector> 
 using namespace std;
 #define uint16 unsigned int
 class Solution {
@@ -35,10 +35,9 @@ int similar_remove(int* nums,unsigned char size)//去重
 	for (int i = 0; i < size-1; i++)
    {
 	   if(*left==*right)//左右相同，右指针右移
-	   {
-		right++;
+	   {right++;
 	   }
-	   else//左右不同，左指针左移，赋值为右指针
+	   else//左右不同，左指针左移，赋值为右指针东方雕塑
 	   {
 		   left++;
 		   *left=*right;

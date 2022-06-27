@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include < vector> 
+#include <vector> 
 #include <iostream>
 using namespace std;//命名空间
 #define uint16 wchar_t
@@ -15,8 +15,7 @@ using namespace std;//命名空间
 
 /*********************************************************************************
   *Function:       求最大利润
-  *Description：    增区间累加   
-  *Calls:  
+  *Description：    增区间累加   Calls:
   *Called By:  
   *Input:          数组
   *Output:        累加值

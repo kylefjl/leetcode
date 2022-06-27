@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include < vector>
+#include <vector>
 #include <iostream>
 using namespace std; //命名空间
 #define uint32 unsigned int
