@@ -4,6 +4,6 @@ project(leetcode)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(P1_TwoSum
-        "editor/cn/P1_TwoSum .cpp")
+        "editor/cn/P1_TwoSum.cpp")
 
-add_executable(P2_AddTwoNumbers  "editor/cn/P2_AddTwoNumbers .cpp")
+add_executable(P2_AddTwoNumbers  "editor/cn/P2_AddTwoNumbers.cpp")
