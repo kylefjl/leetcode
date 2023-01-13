@@ -1,5 +1,8 @@
 # Leetcode 
-中文版leetcode刷题仓库，主要用来记录分享自己的刷题过程
+中文版leetcode刷题仓库，主要用来记录分享自己的刷题过程2023/01/13 19:02:42	
+解答成功:
+执行耗时:8 ms,击败了97.28% 的C++用户
+内存消耗:6.7 MB,击败了85.55% 的C++用户
 
 ## 环境
 - **语言**： c++  
@@ -35,6 +38,19 @@
 
 1. 两数之和
    - [题目](editor/cn/doc/content/P1_TwoSum.md)  [程序](editor/cn/P1_TwoSum.cpp) [笔记](editor/cn/doc/note/P1_TwoSum.md)
+   
+     >执行耗时:8 ms,击败了91.36% 的C++用户
+     >内存消耗:10.2 MB,击败了53.73% 的C++用户
+   
 2. 两数相加
    - [题目](editor/cn/doc/content/P2_AddTwoNumbers.md)  [程序](editor/cn/P2_AddTwoNumbers.cpp) [笔记](editor/cn/doc/note/P2_AddTwoNumbers.md)
+   
+     >执行耗时:24 ms,击败了76.79% 的C++用户
+     >内存消耗:69.3 MB,击败了88.88% 的C++用户
+   
+3. 最长回文子串
+   - [题目](editor/cn/doc/content/P5_LongestPalindromicSubstring.md)  [程序](editor/cn/P5_LongestPalindromicSubstring.cpp) [笔记](editor/cn/doc/note/P5_LongestPalindromicSubstring.md)
+   
+     > 执行耗时:8 ms,击败了97.28% 的C++用户
+	  > 内存消耗:6.7 MB,击败了85.55% 的C++用户
 

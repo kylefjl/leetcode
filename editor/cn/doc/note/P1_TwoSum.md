@@ -26,6 +26,9 @@
       }
 ```
 
+执行耗时:8 ms,击败了91.36% 的C++用户
+内存消耗:10.2 MB,击败了53.73% 的C++用户
+
 # 2. 哈希
 
 如果把vector里的int作为哈希表的key，会出现key重复的情况，所以此处采用允许key重复的hashtable，cppreference查找unordered_multimap即可，当然，也可以和官方解答一样在插入前判断是否重复；
@@ -58,3 +61,5 @@ vector<int> twoSum(vector<int> &nums, int target) {
     }
 ```
 
+执行耗时:12 ms,击败了68.78% 的C++用户
+内存消耗:11.7 MB,击败了6.10% 的C++用户
