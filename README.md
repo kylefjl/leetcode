@@ -35,5 +35,6 @@
 
 1. 两数之和
    - [题目](editor/cn/doc/content/P1_TwoSum.md)  [程序](editor/cn/P1_TwoSum.cpp) [笔记](editor/cn/doc/note/P1_TwoSum.md)
-2. 
+2. 两数相加
+   - [题目](editor/cn/doc/content/P2_AddTwoNumbers.md)  [程序](editor/cn/P2_AddTwoNumbers.cpp) [笔记](editor/cn/doc/note/P2_AddTwoNumbers.md)
 

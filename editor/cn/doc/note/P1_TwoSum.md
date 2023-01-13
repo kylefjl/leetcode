@@ -53,7 +53,7 @@ vector<int> twoSum(vector<int> &nums, int target) {
                     return result;
                 }
             }
-        }[ch01 C++基础](./doc/ch01_CPP基础.md)
+        }
         return {};
     }
 ```
