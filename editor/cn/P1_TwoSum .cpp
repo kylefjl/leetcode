@@ -58,7 +58,7 @@ using namespace std;
 class Solution {
 public:
     //排序+左右查找
-    /*  vector<int> twoSum(vector<int>& nums, int target) {
+      vector<int> twoSum1(vector<int>& nums, int target) {
           vector<int> sort_nums=nums;//保存原始数据
           std::sort(sort_nums.begin(),sort_nums.end());//先排序
           vector<int> result;
@@ -75,10 +75,10 @@ public:
               if(nums[i]==*left_it||nums[i]==*right_it)result.push_back(i);//在原始数据中查找数原本的位置记录在result
           }
           return result;
-      }*/
+      }
 
     //哈希表
-    vector<int> twoSum(vector<int> &nums, int target) {
+    vector<int> twoSum2(vector<int> &nums, int target) {
         unordered_multimap<int, int> hash_map;//允许重复的hashtable
         vector<int> result;
         for (int i = 0; i < nums.size(); i++) {//插入
@@ -112,7 +112,7 @@ int main() {
     Solution s;
     vector<int> input_nums = {3, 3};
     int target = 6;
-    auto result = s.twoSum(input_nums, target);
+    auto result = s.twoSum1(input_nums, target);
     for (auto item: result)
         cout << item << " ";
 }
