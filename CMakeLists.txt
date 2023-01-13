@@ -7,3 +7,4 @@ add_executable(P1_TwoSum
         "editor/cn/P1_TwoSum.cpp")
 
 add_executable(P2_AddTwoNumbers  "editor/cn/P2_AddTwoNumbers.cpp")
+add_executable(P5_LongestPalindromicSubstring editor/cn/P5_LongestPalindromicSubstring.cpp)
