@@ -11,3 +11,4 @@ add_executable(P5_LongestPalindromicSubstring editor/cn/P5_LongestPalindromicSub
 add_executable(P15_ThreeSum editor/cn/P15_ThreeSum.cpp)
 add_executable(P20_ValidParentheses editor/cn/P20_ValidParentheses.cpp)
 add_executable(P21_MergeTwoSortedLists editor/cn/P21_MergeTwoSortedLists.cpp)
+add_executable(P23_MergeKSortedLists editor/cn/P23_MergeKSortedLists.cpp)
