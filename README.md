@@ -59,3 +59,8 @@
 	  >执行耗时:88 ms,击败了40.60% 的C++用户
 	  >内存消耗:35.1 MB,击败了6.66% 的C++用户
 	
+4. 有效的括号
+   - [题目](editor/cn/doc/content/P20_ValidParentheses.md)  [程序](editor/cn/P20_ValidParentheses.cpp) [笔记](editor/cn/doc/note/P20_ValidParentheses.md)
+   
+	  >执行耗时:0 ms,击败了100.00% 的C++用户
+	  >内存消耗:6 MB,击败了97.88% 的C++用户
