@@ -72,5 +72,5 @@
 7.  合并K个升序链表
    - [题目](editor/cn/doc/content/P23_MergeKSortedLists.md)  [程序](editor/cn/P23_MergeKSortedLists.cpp) [笔记](editor/cn/doc/note/P23_MergeKSortedLists.md)
    
-	  >执行耗时:200 ms,击败了13.98% 的C++用户
-	  >内存消耗:15.4 MB,击败了12.66% 的C++用户
+	  >执行耗时:24 ms,击败了52.73% 的C++用户
+	  >内存消耗:13.5 MB,击败了21.58% 的C++用户

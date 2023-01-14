@@ -76,19 +76,16 @@ public:
     ListNode* mergeKLists(vector<ListNode*>& lists)
     {
         if(lists.empty()) return nullptr;
-        if(lists.size()>1)//还有2个以上的链表需要合并
-        {//合并最后的两个
-            ListNode* list_node=mergeTwoLists(*(lists.end()-1),*(lists.end()-2));
-            //先弹出最后两个，再压入合并之后
-            lists.pop_back();
-            lists.pop_back();
-            lists.push_back(list_node);
-            //递归调用
-            return mergeKLists(lists);
+        vector<ListNode*> sort_list;
+        int i;
+        for( i=0;(i+1)<lists.size();i+=2)
+        {//每两个进行链接
+            sort_list.push_back(mergeTwoLists(lists[i],lists[i+1]));
         }
-        else return lists.front();//合并完毕，返回节点
+        if(i==(lists.size()-1))sort_list.push_back(lists.back());//把单独的一个加上
+        if(lists.size()==1)return lists.front();//合并完毕，返回节点
+        return mergeKLists(sort_list);//递归
     }
-
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
         if (l1 == nullptr) {
             return l2;
@@ -102,6 +99,22 @@ public:
             return l2;
         }
     }
+    ListNode* mergeKLists_low(vector<ListNode*>& lists)
+    {
+        if(lists.empty()) return nullptr;
+        if(lists.size()>1)//还有2个以上的链表需要合并
+        {//合并最后的两个
+            ListNode* list_node=mergeTwoLists(*(lists.end()-1),*(lists.end()-2));
+            //先弹出最后两个，再压入合并之后
+            lists.pop_back();
+            lists.pop_back();
+            lists.push_back(list_node);
+            //递归调用
+            return mergeKLists(lists);
+        }
+        else return lists.front();//合并完毕，返回节点
+    }
+
 };
 //leetcode submit region end(Prohibit modification and deletion)
 
