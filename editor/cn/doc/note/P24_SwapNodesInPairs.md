@@ -1,70 +1,53 @@
-//给你一个链表，两两交换其中相邻的节点，并返回交换后链表的头节点。你必须在不修改节点内部的值的情况下完成本题（即，只能进行节点交换）。 
-//
-// 
-//
-// 示例 1： 
-// 
-// 
-//输入：head = [1,2,3,4]
-//输出：[2,1,4,3]
-// 
-//
-// 示例 2： 
-//
-// 
-//输入：head = []
-//输出：[]
-// 
-//
-// 示例 3： 
-//
-// 
-//输入：head = [1]
-//输出：[1]
-// 
-//
-// 
-//
-// 提示： 
-//
-// 
-// 链表中节点的数目在范围 [0, 100] 内 
-// 0 <= Node.val <= 100 
-// 
-//
-// Related Topics递归 | 链表 
-//
-// 👍 1674, 👎 0bug 反馈 | 使用指南 | 更多配套插件 
-//
-//
-//
-//
+# 两两交换链表中的节点
 
-#include<bits/stdc++.h>
-using namespace std;
-struct ListNode {
-     int val;
-     ListNode *next;
-     ListNode() : val(0), next(nullptr) {}
-     ListNode(int x) : val(x), next(nullptr) {}
-     ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-/*
-* 两两交换链表中的节点
-* @author name
-* @date 2023-01-14 23:39:19
-*/
-//leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+## 1 每次交换一对节点
+
+要点是递归调用，为了避免一直要判断下一个节点是否为空，我选择先遍历得出链表的总长度，然为为了减少边界情况的判断，我为输入的节点增加了个虚拟头节点`head_pre`
+
+![fig2](P24_SwapNodesInPairs.assets/fig2.jpeg)
+
+```cc
+ListNode* swapPairs(ListNode* head) {
+        auto*  head_pre=new ListNode{0,head};//定义首节点避免处理边界情况
+        auto temp=head_pre;
+        int size=0;//首先查询链表的长度
+        while (temp->next!= nullptr)
+        {
+            temp=temp->next;
+            size++;
+        }
+        //调用每次交换两对节点的递归函数
+        swapPairs(head_pre,size);//重载函数
+        auto result=head_pre->next;
+        delete head_pre;//free内存
+        return result;
+    }
+void swapPairs(ListNode*&  head,int size) {
+        ListNode* temp;
+        if(size>=2)   //如果没有需要调换，说明全部调换完毕，退出
+        {//这4步实现了一对节点的调换，对应图片
+            temp=head->next;//1
+            head->next=temp->next;//2
+            temp->next=head->next->next;//3
+            head->next->next=temp;//4
+            size-=2;
+            swapPairs(head->next->next,size);
+        }
+    }
+```
+
+>执行耗时:4 ms,击败了55.64% 的C++用户
+>内存消耗:7.3 MB,击败了67.46% 的C++用户
+
+## 2 每次交换两对节点
+
+利用批处理技巧较少调用
+
+![fig1](P24_SwapNodesInPairs.assets/fig1.jpeg)
+
+
+
+```cc
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -118,24 +101,7 @@ public:
         }
     }
 };
+```
 
-//leetcode submit region end(Prohibit modification and deletion)
-
-int main()
-{
-   Solution s;
-
-    ListNode l1_node[4],l2_node[3];
-    ListNode * result;
-    l1_node[0].val=2;l1_node[0].next=&l1_node[1];
-    l1_node[1].val=4;l1_node[1].next=&l1_node[2];
-    l1_node[2].val=6;l1_node[2].next=&l1_node[3];
-    l1_node[3].val=5;l1_node[3].next= nullptr;
-    result=s.swapPairs(l1_node);
-    while(result!= nullptr)
-    {
-        cout<<result->val<<" ";
-        result=result->next;
-
-    }
-}
+> 执行耗时:0 ms,击败了100.00% 的C++用户
+> 内存消耗:7.3 MB,击败了60.08% 的C++用户

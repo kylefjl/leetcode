@@ -51,8 +51,9 @@
    - [题目](editor/cn/doc/content/P5_LongestPalindromicSubstring.md)  [程序](editor/cn/P5_LongestPalindromicSubstring.cpp) [笔记](editor/cn/doc/note/P5_LongestPalindromicSubstring.md)
    
      >执行耗时:8 ms,击败了97.28% 的C++用户  
+     >
      >内存消耗:6.7 MB,击败了85.55% 的C++用户
-
+   
 4. 三数之和
    - [题目](editor/cn/doc/content/P15_ThreeSum.md)  [程序](editor/cn/P15_ThreeSum.cpp) [笔记](editor/cn/doc/note/P15_ThreeSum.md)
    
@@ -74,3 +75,8 @@
    
 	  >执行耗时:24 ms,击败了52.73% 的C++用户
 	  >内存消耗:13.5 MB,击败了21.58% 的C++用户
+8.  合并K个升序链表
+   - [题目](editor/cn/doc/content/P24_SwapNodesInPairs.md)  [程序](editor/cn/P24_SwapNodesInPairs.cpp) [笔记](editor/cn/doc/note/P24_SwapNodesInPairs.md)
+   
+	  >执行耗时:0 ms,击败了100.00% 的C++用户
+	  >内存消耗:7.3 MB,击败了60.08% 的C++用户
