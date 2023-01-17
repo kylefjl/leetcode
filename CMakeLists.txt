@@ -14,3 +14,6 @@ add_executable(P21_MergeTwoSortedLists editor/cn/P21_MergeTwoSortedLists.cpp)
 add_executable(P23_MergeKSortedLists editor/cn/P23_MergeKSortedLists.cpp)
 add_executable(P24_SwapNodesInPairs editor/cn/P24_SwapNodesInPairs.cpp)
 add_executable(P25_ReverseNodesInKGroup editor/cn/P25_ReverseNodesInKGroup.cpp)
+
+
+add_executable(P36_ValidSudoku editor/cn/P36_ValidSudoku.cpp)
