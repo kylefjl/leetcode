@@ -88,8 +88,8 @@
 	  >执行耗时:8 ms,击败了98.20% 的C++用户 
 	  >内存消耗:11.2 MB,击败了47.15% 的C++用户
 
-10.  有效的数独
-    - [题目](editor/cn/doc/content/P25_ReverseNodesInKGroup.md)  [程序](editor/cn/P25_ReverseNodesInKGroup.cpp) [笔记](editor/cn/doc/note/P25_ReverseNodesInKGroup.md)
-    
-	  >执行耗时:12 ms,击败了93.59% 的C++用户 
-	  >内存消耗:17.9 MB,击败了31.46% 的C++用户
+10.  有效的数独 
+     - [题目](editor/cn/doc/content/P36_ValidSudoku.md)  [程序](editor/cn/P36_ValidSudoku.cpp) [笔记](editor/cn/doc/note/P36_ValidSudoku.md)
+     
+     	>执行耗时:12 ms,击败了93.59% 的C++用户 
+	>内存消耗:17.9 MB,击败了31.46% 的C++用户
