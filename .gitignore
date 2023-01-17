@@ -1,3 +1,5 @@
 .idea
 /cmake-build-debug
+/cmake-build-release
 editor/cn/doc/solution
+editor/cn/doc/submission

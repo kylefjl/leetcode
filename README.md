@@ -50,9 +50,9 @@
 3. 最长回文子串
    - [题目](editor/cn/doc/content/P5_LongestPalindromicSubstring.md)  [程序](editor/cn/P5_LongestPalindromicSubstring.cpp) [笔记](editor/cn/doc/note/P5_LongestPalindromicSubstring.md)
    
-     >执行耗时:8 ms,击败了97.28% 的C++用户  
+     >执行耗时:8 ms,击败了97.28% 的C++用户
      >内存消耗:6.7 MB,击败了85.55% 的C++用户
-
+   
 4. 三数之和
    - [题目](editor/cn/doc/content/P15_ThreeSum.md)  [程序](editor/cn/P15_ThreeSum.cpp) [笔记](editor/cn/doc/note/P15_ThreeSum.md)
    
@@ -69,3 +69,21 @@
    
 	  >执行耗时:8 ms,击败了57.82% 的C++用户
 	  >内存消耗:14.4 MB,击败了34.20% 的C++用户
+
+7.  合并K个升序链表
+    - [题目](editor/cn/doc/content/P23_MergeKSortedLists.md)  [程序](editor/cn/P23_MergeKSortedLists.cpp) [笔记](editor/cn/doc/note/P23_MergeKSortedLists.md)
+    
+	  >执行耗时:24 ms,击败了52.73% 的C++用户
+	  >内存消耗:13.5 MB,击败了21.58% 的C++用户
+
+8.  两两交换链表中的节点
+    - [题目](editor/cn/doc/content/P24_SwapNodesInPairs.md)  [程序](editor/cn/P24_SwapNodesInPairs.cpp) [笔记](editor/cn/doc/note/P24_SwapNodesInPairs.md)
+    
+	  >执行耗时:0 ms,击败了100.00% 的C++用户
+	  >内存消耗:7.3 MB,击败了60.08% 的C++用户
+
+9.  K个一组翻转链表
+    - [题目](editor/cn/doc/content/P25_ReverseNodesInKGroup.md)  [程序](editor/cn/P25_ReverseNodesInKGroup.cpp) [笔记](editor/cn/doc/note/P25_ReverseNodesInKGroup.md)
+    
+	  >执行耗时:8 ms,击败了98.20% 的C++用户 
+	  >内存消耗:11.2 MB,击败了47.15% 的C++用户
