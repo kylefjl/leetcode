@@ -90,13 +90,18 @@
 
 10.  有效的数独
      - [题目](editor/cn/doc/content/P36_ValidSudoku.md)  [程序](editor/cn/P36_ValidSudoku.cpp) [笔记](editor/cn/doc/note/P36_ValidSudoku.md)
-      
+     
 	   >执行耗时:12 ms,击败了93.59% 的C++用户 
 	   >内存消耗:17.9 MB,击败了31.46% 的C++用户
 
 11.  接雨水
      - [题目](editor/cn/doc/content/P42_TrappingRainWater.md)  [程序](editor/cn/P42_TrappingRainWater.cpp) [笔记](editor/cn/doc/note/P42_TrappingRainWater.md)
-      
+     
 	   >执行耗时:12 ms,击败了81.23% 的C++用户
 	   >内存消耗:19.1 MB,击败了96.21% 的C++用户
 
+11.  字符串相乘
+     - [题目](editor/cn/doc/content/P43_MultiplyStrings.md)  [程序](editor/cn/P43_MultiplyStrings.cpp) [笔记](editor/cn/doc/note/P43_MultiplyStrings.md)
+     
+	   >执行耗时:16 ms,击败了33.38% 的C++用户
+	   >内存消耗:12 MB,击败了13.17% 的C++用户
