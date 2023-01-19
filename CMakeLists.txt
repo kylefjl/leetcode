@@ -17,3 +17,5 @@ add_executable(P25_ReverseNodesInKGroup editor/cn/P25_ReverseNodesInKGroup.cpp)
 
 
 add_executable(P36_ValidSudoku editor/cn/P36_ValidSudoku.cpp)
+
+add_executable(P42_TrappingRainWater editor/cn/P42_TrappingRainWater.cpp)
