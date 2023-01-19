@@ -64,7 +64,6 @@
    
 	  >执行耗时:0 ms,击败了100.00% 的C++用户
 	  >内存消耗:6 MB,击败了97.88% 的C++用户
-
 6. 合并两个有序链表
    - [题目](editor/cn/doc/content/P21_MergeTwoSortedLists.md)  [程序](editor/cn/P21_MergeTwoSortedLists.cpp) [笔记](editor/cn/doc/note/P21_MergeTwoSortedLists.md)
    
@@ -88,3 +87,9 @@
     
 	  >执行耗时:8 ms,击败了98.20% 的C++用户 
 	  >内存消耗:11.2 MB,击败了47.15% 的C++用户
+
+10.  有效的数独 
+     - [题目](editor/cn/doc/content/P36_ValidSudoku.md)  [程序](editor/cn/P36_ValidSudoku.cpp) [笔记](editor/cn/doc/note/P36_ValidSudoku.md)
+     
+     	>执行耗时:12 ms,击败了93.59% 的C++用户 
+	>内存消耗:17.9 MB,击败了31.46% 的C++用户
