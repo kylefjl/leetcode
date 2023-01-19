@@ -88,8 +88,15 @@
 	  >执行耗时:8 ms,击败了98.20% 的C++用户 
 	  >内存消耗:11.2 MB,击败了47.15% 的C++用户
 
-10.  有效的数独 
+10.  有效的数独
      - [题目](editor/cn/doc/content/P36_ValidSudoku.md)  [程序](editor/cn/P36_ValidSudoku.cpp) [笔记](editor/cn/doc/note/P36_ValidSudoku.md)
-     
-     	>执行耗时:12 ms,击败了93.59% 的C++用户 
-	>内存消耗:17.9 MB,击败了31.46% 的C++用户
+      
+	   >执行耗时:12 ms,击败了93.59% 的C++用户 
+	   >内存消耗:17.9 MB,击败了31.46% 的C++用户
+
+11.  接雨水
+     - [题目](editor/cn/doc/content/P42_TrappingRainWater.md)  [程序](editor/cn/P42_TrappingRainWater.cpp) [笔记](editor/cn/doc/note/P42_TrappingRainWater.md)
+      
+	   >执行耗时:12 ms,击败了81.23% 的C++用户
+	   >内存消耗:19.1 MB,击败了96.21% 的C++用户
+
