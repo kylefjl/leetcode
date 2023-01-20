@@ -100,8 +100,14 @@
 	   >执行耗时:12 ms,击败了81.23% 的C++用户
 	   >内存消耗:19.1 MB,击败了96.21% 的C++用户
 
-11.  字符串相乘
+12.  字符串相乘
      - [题目](editor/cn/doc/content/P43_MultiplyStrings.md)  [程序](editor/cn/P43_MultiplyStrings.cpp) [笔记](editor/cn/doc/note/P43_MultiplyStrings.md)
      
 	   >执行耗时:16 ms,击败了33.38% 的C++用户
 	   >内存消耗:12 MB,击败了13.17% 的C++用户
+
+13.  旋转图像
+     - [题目](editor/cn/doc/content/P48_RotateImage.md)  [程序](editor/cn/P48_RotateImage.cpp) [笔记](editor/cn/doc/note/P48_RotateImage.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:6.8 MB,击败了70.89% 的C++用户
