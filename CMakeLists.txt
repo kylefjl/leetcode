@@ -25,4 +25,5 @@ add_executable(P43_MultiplyStrings editor/cn/P43_MultiplyStrings.cpp)
 add_executable(P44_WildcardMatching editor/cn/P44_WildcardMatching.cpp)
 
 add_executable(P48_RotateImage editor/cn/P48_RotateImage.cpp)
+
 add_executable(P94_BinaryTreeInorderTraversal editor/cn/P94_BinaryTreeInorderTraversal.cpp)

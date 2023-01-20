@@ -111,3 +111,9 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:6.8 MB,击败了70.89% 的C++用户
+
+14.  通配符匹配
+     - [题目](editor/cn/doc/content/P44_WildcardMatching.md)  [程序](editor/cn/P44_WildcardMatching.cpp) [笔记](editor/cn/doc/note/P44_WildcardMatching.md)
+     
+	   >执行耗时:52 ms,击败了79.64% 的C++用户
+	   >内存消耗:10.9 MB,击败了71.50% 的C++用户
