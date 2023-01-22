@@ -29,3 +29,5 @@ add_executable(P48_RotateImage editor/cn/P48_RotateImage.cpp)
 add_executable(P94_BinaryTreeInorderTraversal editor/cn/P94_BinaryTreeInorderTraversal.cpp)
 
 add_executable(P98_ValidateBinarySearchTree editor/cn/P98_ValidateBinarySearchTree.cpp)
+
+add_executable(P102_BinaryTreeLevelOrderTraversal editor/cn/P102_BinaryTreeLevelOrderTraversal.cpp)
