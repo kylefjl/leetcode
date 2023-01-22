@@ -123,3 +123,9 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:8 MB,击败了92.66% 的C++用户
+
+16.  验证二叉搜索树
+     - [题目](editor/cn/doc/content/P98_ValidateBinarySearchTree.md)  [程序](editor/cn/P98_ValidateBinarySearchTree.cpp) [笔记](editor/cn/doc/note/P98_ValidateBinarySearchTree.md)
+     
+	   >执行耗时:4 ms,击败了98.02% 的C++用户
+	   >内存消耗:21.1 MB,击败了76.74% 的C++用户
