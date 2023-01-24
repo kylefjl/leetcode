@@ -135,3 +135,9 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:12.1 MB,击败了83.76% 的C++用户
+
+18.  可以到达所有点的最少点数目
+     - [题目](editor/cn/doc/content/P1557_MinimumNumberOfVerticesToReachAllNodes.md)  [程序](editor/cn/P1557_MinimumNumberOfVerticesToReachAllNodes.cpp) [笔记](editor/cn/doc/note/P1557_MinimumNumberOfVerticesToReachAllNodes.md)
+     
+	   >执行耗时:232 ms,击败了72.26% 的C++用户
+	   >内存消耗:91.6 MB,击败了89.42% 的C++用户
