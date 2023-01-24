@@ -147,3 +147,10 @@
      
 	   >执行耗时:296 ms,击败了93.21% 的C++用户
 	   >内存消耗:115.7 MB,击败了69.11% 的C++用户
+
+
+20.  省份数量
+     - [题目](editor/cn/doc/content/P547_NumberOfProvinces.md)  [程序](editor/cn/P547_NumberOfProvinces.cpp) [笔记](editor/cn/doc/note/P547_NumberOfProvinces.md)
+     
+	   >执行耗时:16 ms,击败了92.94% 的C++用户
+	   >内存消耗:13.3 MB,击败了54.74% 的C++用户
