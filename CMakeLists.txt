@@ -33,3 +33,5 @@ add_executable(P98_ValidateBinarySearchTree editor/cn/P98_ValidateBinarySearchTr
 add_executable(P102_BinaryTreeLevelOrderTraversal editor/cn/P102_BinaryTreeLevelOrderTraversal.cpp)
 
 add_executable(P1557_MinimumNumberOfVerticesToReachAllNodes editor/cn/P1557_MinimumNumberOfVerticesToReachAllNodes.cpp)
+
+add_executable(P1971_FindIfPathExistsInGraph editor/cn/P1971_FindIfPathExistsInGraph.cpp)

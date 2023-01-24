@@ -141,3 +141,9 @@
      
 	   >执行耗时:232 ms,击败了72.26% 的C++用户
 	   >内存消耗:91.6 MB,击败了89.42% 的C++用户
+
+19.  寻找图中是否存在路径
+     - [题目](editor/cn/doc/content/P1971_FindIfPathExistsInGraph.md)  [程序](editor/cn/P1971_FindIfPathExistsInGraph.cpp) [笔记](editor/cn/doc/note/P1971_FindIfPathExistsInGraph.md)
+     
+	   >执行耗时:296 ms,击败了93.21% 的C++用户
+	   >内存消耗:115.7 MB,击败了69.11% 的C++用户
