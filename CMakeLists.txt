@@ -37,3 +37,5 @@ add_executable(P1557_MinimumNumberOfVerticesToReachAllNodes editor/cn/P1557_Mini
 add_executable(P1971_FindIfPathExistsInGraph editor/cn/P1971_FindIfPathExistsInGraph.cpp)
 
 add_executable(P547_NumberOfProvinces editor/cn/P547_NumberOfProvinces.cpp)
+
+add_executable(P684_RedundantConnection editor/cn/P684_RedundantConnection.cpp)
