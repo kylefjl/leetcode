@@ -154,3 +154,15 @@
      
 	   >执行耗时:16 ms,击败了92.94% 的C++用户
 	   >内存消耗:13.3 MB,击败了54.74% 的C++用户
+
+21.  冗余连接
+     - [题目](editor/cn/doc/content/P684_RedundantConnection.md)  [程序](editor/cn/P684_RedundantConnection.cpp) [笔记](editor/cn/doc/note/P684_RedundantConnection.md)
+     
+	   >执行耗时:4 ms,击败了95.21% 的C++用户
+	   >内存消耗:8.5 MB,击败了55.76% 的C++用户
+
+22.  冗余连接Ⅱ
+     - [题目](editor/cn/doc/content/P685_RedundantConnectionIi.md)  [程序](editor/cn/P685_RedundantConnectionIi.cpp) [笔记](editor/cn/doc/note/P685_RedundantConnectionIi.md)
+     
+	   >执行耗时:4 ms,击败了97.05% 的C++用户
+	   >内存消耗:9.3 MB,击败了43.46% 的C++用户

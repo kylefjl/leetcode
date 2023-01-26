@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.22)
 project(leetcode)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(P1_TwoSum
         "editor/cn/P1_TwoSum.cpp")
@@ -39,3 +39,5 @@ add_executable(P1971_FindIfPathExistsInGraph editor/cn/P1971_FindIfPathExistsInG
 add_executable(P547_NumberOfProvinces editor/cn/P547_NumberOfProvinces.cpp)
 
 add_executable(P684_RedundantConnection editor/cn/P684_RedundantConnection.cpp)
+
+add_executable(P685_RedundantConnectionIi editor/cn/P685_RedundantConnectionIi.cpp)
