@@ -166,3 +166,9 @@
      
 	   >执行耗时:4 ms,击败了97.05% 的C++用户
 	   >内存消耗:9.3 MB,击败了43.46% 的C++用户
+
+23.  连接所有点的最小费用
+     - [题目](editor/cn/doc/content/P1584_MinCostToConnectAllPoints.md)  [程序](editor/cn/P1584_MinCostToConnectAllPoints.cpp) [笔记](editor/cn/doc/note/P1584_MinCostToConnectAllPoints.md)
+     
+	   >执行耗时:48 ms,击败了98.79% 的C++用户
+	   >内存消耗:10.2 MB,击败了94.74% 的C++用户
