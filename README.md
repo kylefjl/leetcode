@@ -178,3 +178,9 @@
      
 	   >执行耗时:88 ms,击败了86.19% 的C++用户
 	   >内存消耗:36.9 MB,击败了61.38% 的C++用户
+
+24.  二叉搜索树中的插入操作
+     - [题目](editor/cn/doc/content/P701_InsertIntoABinarySearchTree.md)  [程序](editor/cn/P701_InsertIntoABinarySearchTree.cpp) [笔记](editor/cn/doc/note/P701_InsertIntoABinarySearchTree.md)
+     
+	   >执行耗时:80 ms,击败了80.70% 的C++用户
+	   >内存消耗:55.6 MB,击败了36.51% 的C++用户
