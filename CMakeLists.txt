@@ -47,3 +47,5 @@ add_executable(P1584_MinCostToConnectAllPoints editor/cn/P1584_MinCostToConnectA
 add_executable(P743_NetworkDelayTime editor/cn/P743_NetworkDelayTime.cpp)
 
 add_executable(P701_InsertIntoABinarySearchTree editor/cn/P701_InsertIntoABinarySearchTree.cpp)
+
+add_executable(P110_BalancedBinaryTree editor/cn/P110_BalancedBinaryTree.cpp)

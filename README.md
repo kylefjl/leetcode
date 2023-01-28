@@ -184,3 +184,9 @@
      
 	   >执行耗时:80 ms,击败了80.70% 的C++用户
 	   >内存消耗:55.6 MB,击败了36.51% 的C++用户
+
+25.  平衡二叉树
+     - [题目](editor/cn/doc/content/P110_BalancedBinaryTree.md)  [程序](editor/cn/P110_BalancedBinaryTree.cpp) [笔记](editor/cn/doc/note/P110_BalancedBinaryTree.md)
+     
+	   >执行耗时:8 ms,击败了87.63% 的C++用户
+	   >内存消耗:20.5 MB,击败了17.05% 的C++用户
