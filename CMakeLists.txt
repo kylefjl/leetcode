@@ -43,3 +43,5 @@ add_executable(P684_RedundantConnection editor/cn/P684_RedundantConnection.cpp)
 add_executable(P685_RedundantConnectionIi editor/cn/P685_RedundantConnectionIi.cpp)
 
 add_executable(P1584_MinCostToConnectAllPoints editor/cn/P1584_MinCostToConnectAllPoints.cpp)
+
+add_executable(P743_NetworkDelayTime editor/cn/P743_NetworkDelayTime.cpp)

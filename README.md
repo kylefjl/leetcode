@@ -172,3 +172,9 @@
      
 	   >执行耗时:48 ms,击败了98.79% 的C++用户
 	   >内存消耗:10.2 MB,击败了94.74% 的C++用户
+
+24.  网络延迟时间
+     - [题目](editor/cn/doc/content/P743_NetworkDelayTime.md)  [程序](editor/cn/P743_NetworkDelayTime.cpp) [笔记](editor/cn/doc/note/P743_NetworkDelayTime.md)
+     
+	   >执行耗时:88 ms,击败了86.19% 的C++用户
+	   >内存消耗:36.9 MB,击败了61.38% 的C++用户
