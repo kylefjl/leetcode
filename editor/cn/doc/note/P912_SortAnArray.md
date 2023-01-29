@@ -218,9 +218,7 @@ public:
             if (it_left< it_right)//有可能出现it_left> it_right
             {
                 swap(*it_left,*it_right);
-            }
-            if(it_left> it_right)cout<<"over mid"<<endl;
-        }
+            }        }
         QuickSort(beg,it_left);
         QuickSort(it_left,end);
     }

@@ -192,7 +192,7 @@ public:
         auto pivot=*(rand()%(end-beg)+beg);//随机取
         auto it_left = beg-1, it_right = end ;//开始时不指向有效数据
         while (it_left<it_right) {
-            //1、pivot为left和right之间的一个值，所以如果序列可以用pivot二分且没有第二个pivot，则第一次循环left=right=pivot,直接结束循环
+            //1、pivot为left和right之间的一个值，所以如果序列可以用pivot直接二分且没有第二个pivot，则第一次循环left=right=pivot,直接结束循环
             //2、如果发生了一次交换，则交换后的数组左边存在数a<= pivot 右边存在数b>= pivot,当迭代器it_left> it_right后，最坏情况下也必然会在这一组数的位置处
             //  触发判断 it_left< it_right？，如果it_left>it_right，则数组访问完毕，退出
             do ++it_left; while (*it_left < pivot);
@@ -201,7 +201,6 @@ public:
             {
                 swap(*it_left,*it_right);
             }
-            if(it_left> it_right)cout<<"over mid"<<endl;
         }
         QuickSort(beg,it_left);
         QuickSort(it_left,end);
