@@ -190,3 +190,9 @@
      
 	   >执行耗时:8 ms,击败了87.63% 的C++用户
 	   >内存消耗:20.5 MB,击败了17.05% 的C++用户
+
+26.  排序数组
+     - [题目](editor/cn/doc/content/P912_SortAnArray.md)  [程序](editor/cn/P912_SortAnArray.cpp) [笔记](editor/cn/doc/note/P912_SortAnArray.md)
+     
+	   >执行耗时:84 ms,击败了96.94% 的C++用户
+	   >内存消耗:54 MB,击败了99.91% 的C++用户

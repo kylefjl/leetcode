@@ -49,3 +49,5 @@ add_executable(P743_NetworkDelayTime editor/cn/P743_NetworkDelayTime.cpp)
 add_executable(P701_InsertIntoABinarySearchTree editor/cn/P701_InsertIntoABinarySearchTree.cpp)
 
 add_executable(P110_BalancedBinaryTree editor/cn/P110_BalancedBinaryTree.cpp)
+
+add_executable(P912_SortAnArray editor/cn/P912_SortAnArray.cpp)
