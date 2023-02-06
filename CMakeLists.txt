@@ -55,3 +55,5 @@ add_executable(P912_SortAnArray editor/cn/P912_SortAnArray.cpp)
 add_executable(P85_MaximalRectangle editor/cn/P85_MaximalRectangle.cpp)
 
 add_executable(P84_LargestRectangleInHistogram editor/cn/P84_LargestRectangleInHistogram.cpp)
+
+add_executable(P338_CountingBits editor/cn/P338_CountingBits.cpp)

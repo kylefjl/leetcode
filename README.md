@@ -203,8 +203,14 @@
 	   >执行耗时:116 ms,击败了89.45% 的C++用户
 	   >内存消耗:73 MB,击败了99.07% 的C++用户
 
-27.  最大矩形
+29.  最大矩形
      - [题目](editor/cn/doc/content/P85_MaximalRectangle.md)  [程序](editor/cn/P85_MaximalRectangle.cpp) [笔记](editor/cn/doc/note/P85_MaximalRectangle.md)
      
 	   >执行耗时:36 ms,击败了83.19% 的C++用户
 	   >内存消耗:15.1 MB,击败了34.08% 的C++用户
+
+30.  比特位计数
+     - [题目](editor/cn/doc/content/P338_CountingBits.md)  [程序](editor/cn/P338_CountingBits.cpp) [笔记](editor/cn/doc/note/P338_CountingBits.md)
+     
+	   >执行耗时:4 ms,击败了88.05% 的C++用户
+	   >内存消耗:7.5 MB,击败了97.75% 的C++用户
