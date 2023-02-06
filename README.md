@@ -196,3 +196,15 @@
      
 	   >执行耗时:84 ms,击败了96.94% 的C++用户
 	   >内存消耗:54 MB,击败了99.91% 的C++用户
+
+27.  柱状图中最大的矩形
+     - [题目](editor/cn/doc/content/P84_LargestRectangleInHistogram.md)  [程序](editor/cn/P84_LargestRectangleInHistogram.cpp) [笔记](editor/cn/doc/note/P84_LargestRectangleInHistogram.md)
+     
+	   >执行耗时:116 ms,击败了89.45% 的C++用户
+	   >内存消耗:73 MB,击败了99.07% 的C++用户
+
+27.  最大矩形
+     - [题目](editor/cn/doc/content/P85_MaximalRectangle.md)  [程序](editor/cn/P85_MaximalRectangle.cpp) [笔记](editor/cn/doc/note/P85_MaximalRectangle.md)
+     
+	   >执行耗时:36 ms,击败了83.19% 的C++用户
+	   >内存消耗:15.1 MB,击败了34.08% 的C++用户
