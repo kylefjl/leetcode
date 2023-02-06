@@ -51,3 +51,7 @@ add_executable(P701_InsertIntoABinarySearchTree editor/cn/P701_InsertIntoABinary
 add_executable(P110_BalancedBinaryTree editor/cn/P110_BalancedBinaryTree.cpp)
 
 add_executable(P912_SortAnArray editor/cn/P912_SortAnArray.cpp)
+
+add_executable(P85_MaximalRectangle editor/cn/P85_MaximalRectangle.cpp)
+
+add_executable(P84_LargestRectangleInHistogram editor/cn/P84_LargestRectangleInHistogram.cpp)
