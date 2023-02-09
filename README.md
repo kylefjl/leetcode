@@ -33,6 +33,8 @@
 ## 分支说明
  - main:每道题提交的时候都是在leetcode上测试过的，有对应的笔记和完整的注释
  - dev:主要用来实现多主机上的代码同步，所以有些提交可能出现一些未完成的代码
+>[交流｜科普一下力扣的运行时间，以及beats 100%的那些事 - 力扣（LeetCode）](https://leetcode.cn/circle/discuss/cErV2N/)
+
 ## 题
 
 1. 两数之和
@@ -214,3 +216,9 @@
      
 	   >执行耗时:4 ms,击败了88.05% 的C++用户
 	   >内存消耗:7.5 MB,击败了97.75% 的C++用户
+
+31.  全排列
+     - [题目](editor/cn/doc/content/P46_Permutations.md)  [程序](editor/cn/P46_Permutations.cpp) [笔记](editor/cn/doc/note/P46_Permutations.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:7.1 MB,击败了99.95% 的C++用户
