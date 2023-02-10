@@ -222,3 +222,9 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:7.1 MB,击败了99.95% 的C++用户
+
+31.  全排列 II
+     - [题目](editor/cn/doc/content/P47_PermutationsIi.md)  [程序](editor/cn/P47_PermutationsIi.cpp) [笔记](editor/cn/doc/note/P47_PermutationsIi.md)
+     
+	   >执行耗时:4 ms,击败了92.96% 的C++用户
+	   >内存消耗:8.4 MB,击败了83.09% 的C++用户

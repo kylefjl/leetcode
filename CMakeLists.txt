@@ -59,3 +59,5 @@ add_executable(P84_LargestRectangleInHistogram editor/cn/P84_LargestRectangleInH
 add_executable(P338_CountingBits editor/cn/P338_CountingBits.cpp)
 
 add_executable(P46_Permutations editor/cn/P46_Permutations.cpp)
+
+add_executable(P47_PermutationsIi editor/cn/P47_PermutationsIi.cpp)
