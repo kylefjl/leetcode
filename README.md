@@ -228,3 +228,9 @@
      
 	   >执行耗时:4 ms,击败了92.96% 的C++用户
 	   >内存消耗:8.4 MB,击败了83.09% 的C++用户
+
+32.  N 皇后
+     - [题目](editor/cn/doc/content/P51_NQueens.md)  [程序](editor/cn/P51_NQueens.cpp) [笔记](editor/cn/doc/note/P51_NQueens.md)
+     
+	   >执行耗时:4 ms,击败了93.37% 的C++用户
+	   >内存消耗:7 MB,击败了93.65% 的C++用户
