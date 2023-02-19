@@ -57,3 +57,5 @@ add_executable(P85_MaximalRectangle editor/cn/P85_MaximalRectangle.cpp)
 add_executable(P84_LargestRectangleInHistogram editor/cn/P84_LargestRectangleInHistogram.cpp)
 
 add_executable(P338_CountingBits editor/cn/P338_CountingBits.cpp)
+
+add_executable(P162_FindPeakElement editor/cn/P162_FindPeakElement.cpp)

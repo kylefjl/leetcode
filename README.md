@@ -214,3 +214,9 @@
      
 	   >执行耗时:4 ms,击败了88.05% 的C++用户
 	   >内存消耗:7.5 MB,击败了97.75% 的C++用户
+
+31.  寻找峰值
+     - [题目](editor/cn/doc/content/P162_FindPeakElement.md)  [程序](editor/cn/P162_FindPeakElement.cpp) [笔记](editor/cn/doc/note/P162_FindPeakElement.md)
+     
+	   >执行耗时:4 ms,击败了72.56% 的C++用户
+	   >内存消耗:8.7 MB,击败了8.64% 的C++用户
