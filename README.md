@@ -234,3 +234,9 @@
      
 	   >执行耗时:4 ms,击败了93.37% 的C++用户
 	   >内存消耗:7 MB,击败了93.65% 的C++用户
+
+33.  跳跃游戏
+     - [题目](editor/cn/doc/content/P55_JumpGame.md)  [程序](editor/cn/P55_JumpGame.cpp) [笔记](editor/cn/doc/note/P55_JumpGame.md)
+     
+	   >执行耗时:40 ms,击败了95.53% 的C++用户
+	   >内存消耗:47.2 MB,击败了37.50% 的C++用户
