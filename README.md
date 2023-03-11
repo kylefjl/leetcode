@@ -33,6 +33,8 @@
 ## 分支说明
  - main:每道题提交的时候都是在leetcode上测试过的，有对应的笔记和完整的注释
  - dev:主要用来实现多主机上的代码同步，所以有些提交可能出现一些未完成的代码
+>[交流｜科普一下力扣的运行时间，以及beats 100%的那些事 - 力扣（LeetCode）](https://leetcode.cn/circle/discuss/cErV2N/)
+
 ## 题
 
 1. 两数之和
@@ -215,8 +217,31 @@
 	   >执行耗时:4 ms,击败了88.05% 的C++用户
 	   >内存消耗:7.5 MB,击败了97.75% 的C++用户
 
-31.  寻找峰值
+32. 寻找峰值
      - [题目](editor/cn/doc/content/P162_FindPeakElement.md)  [程序](editor/cn/P162_FindPeakElement.cpp) [笔记](editor/cn/doc/note/P162_FindPeakElement.md)
      
 	   >执行耗时:4 ms,击败了72.56% 的C++用户
 	   >内存消耗:8.7 MB,击败了8.64% 的C++用户
+33.  全排列
+     - [题目](editor/cn/doc/content/P46_Permutations.md)  [程序](editor/cn/P46_Permutations.cpp) [笔记](editor/cn/doc/note/P46_Permutations.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:7.1 MB,击败了99.95% 的C++用户
+
+34.  全排列 II
+     - [题目](editor/cn/doc/content/P47_PermutationsIi.md)  [程序](editor/cn/P47_PermutationsIi.cpp) [笔记](editor/cn/doc/note/P47_PermutationsIi.md)
+     
+	   >执行耗时:4 ms,击败了92.96% 的C++用户
+	   >内存消耗:8.4 MB,击败了83.09% 的C++用户
+
+35.  N 皇后
+     - [题目](editor/cn/doc/content/P51_NQueens.md)  [程序](editor/cn/P51_NQueens.cpp) [笔记](editor/cn/doc/note/P51_NQueens.md)
+     
+	   >执行耗时:4 ms,击败了93.37% 的C++用户
+	   >内存消耗:7 MB,击败了93.65% 的C++用户
+
+36.  跳跃游戏
+     - [题目](editor/cn/doc/content/P55_JumpGame.md)  [程序](editor/cn/P55_JumpGame.cpp) [笔记](editor/cn/doc/note/P55_JumpGame.md)
+     
+	   >执行耗时:40 ms,击败了95.53% 的C++用户
+	   >内存消耗:47.2 MB,击败了37.50% 的C++用户

@@ -59,3 +59,11 @@ add_executable(P84_LargestRectangleInHistogram editor/cn/P84_LargestRectangleInH
 add_executable(P338_CountingBits editor/cn/P338_CountingBits.cpp)
 
 add_executable(P162_FindPeakElement editor/cn/P162_FindPeakElement.cpp)
+
+add_executable(P46_Permutations editor/cn/P46_Permutations.cpp)
+
+add_executable(P47_PermutationsIi editor/cn/P47_PermutationsIi.cpp)
+
+add_executable(P51_NQueens editor/cn/P51_NQueens.cpp)
+
+add_executable(P55_JumpGame editor/cn/P55_JumpGame.cpp)
