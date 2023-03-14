@@ -219,7 +219,7 @@
 
 32. 寻找峰值
      - [题目](editor/cn/doc/content/P162_FindPeakElement.md)  [程序](editor/cn/P162_FindPeakElement.cpp) [笔记](editor/cn/doc/note/P162_FindPeakElement.md)
-     
+    
 	   >执行耗时:4 ms,击败了72.56% 的C++用户
 	   >内存消耗:8.7 MB,击败了8.64% 的C++用户
 33.  全排列
@@ -245,3 +245,9 @@
      
 	   >执行耗时:40 ms,击败了95.53% 的C++用户
 	   >内存消耗:47.2 MB,击败了37.50% 的C++用户
+
+37.  不同路径
+     - [题目](editor/cn/doc/content/P62_UniquePaths.md)  [程序](editor/cn/P62_UniquePaths.cpp) [笔记](editor/cn/doc/note/P62_UniquePaths.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:5.7 MB,击败了95.55% 的C++用户

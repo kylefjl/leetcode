@@ -67,3 +67,8 @@ add_executable(P47_PermutationsIi editor/cn/P47_PermutationsIi.cpp)
 add_executable(P51_NQueens editor/cn/P51_NQueens.cpp)
 
 add_executable(P55_JumpGame editor/cn/P55_JumpGame.cpp)
+
+add_executable(P62_UniquePaths editor/cn/P62_UniquePaths.cpp)
+
+add_executable(P63_UniquePathsIi editor/cn/P63_UniquePathsIi.cpp)
+
