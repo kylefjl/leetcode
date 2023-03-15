@@ -270,3 +270,9 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:5.9 MB,击败了32.06% 的C++用户
+
+40.  旋转链表
+     - [题目](editor/cn/doc/content/P61_RotateList.md)  [程序](editor/cn/P61_RotateList.cpp) [笔记](editor/cn/doc/note/P61_RotateList.md)
+     
+	   >执行耗时:8 ms,击败了64.06% 的C++用户
+	   >内存消耗:11.4 MB,击败了32.96% 的C++用户
