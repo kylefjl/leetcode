@@ -222,6 +222,7 @@
     
 	   >执行耗时:4 ms,击败了72.56% 的C++用户
 	   >内存消耗:8.7 MB,击败了8.64% 的C++用户
+	
 33.  全排列
      - [题目](editor/cn/doc/content/P46_Permutations.md)  [程序](editor/cn/P46_Permutations.cpp) [笔记](editor/cn/doc/note/P46_Permutations.md)
      
@@ -257,3 +258,15 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:7.5 MB,击败了69.79% 的C++用户
+
+39.  x 的平方根
+     - [题目](editor/cn/doc/content/P69_Sqrtx.md)  [程序](editor/cn/P69_Sqrtx.cpp) [笔记](editor/cn/doc/note/P69_Sqrtx.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:5.8 MB,击败了38.18% 的C++用户
+
+39.  Pow(x, n)
+     - [题目](editor/cn/doc/content/P50_PowxN.md)  [程序](editor/cn/P50_PowxN.cpp) [笔记](editor/cn/doc/note/P50_PowxN.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:5.9 MB,击败了32.06% 的C++用户

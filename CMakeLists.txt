@@ -73,3 +73,5 @@ add_executable(P62_UniquePaths editor/cn/P62_UniquePaths.cpp)
 add_executable(P63_UniquePathsIi editor/cn/P63_UniquePathsIi.cpp)
 
 add_executable(P69_Sqrtx editor/cn/P69_Sqrtx.cpp)
+
+add_executable(P50_PowxN editor/cn/P50_PowxN.cpp)
