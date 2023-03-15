@@ -251,3 +251,9 @@
      
 	   >执行耗时:0 ms,击败了100.00% 的C++用户
 	   >内存消耗:5.7 MB,击败了95.55% 的C++用户
+
+38.  不同路径 II
+     - [题目](editor/cn/doc/content/P63_UniquePathsIi.md)  [程序](editor/cn/P63_UniquePathsIi.cpp) [笔记](editor/cn/doc/note/P63_UniquePathsIi.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:7.5 MB,击败了69.79% 的C++用户
