@@ -43,8 +43,23 @@ using namespace std;
 class Solution {
 public:
     int mySqrt(unsigned int x) {
-        return mySqrt(x,0,x);
+        if(x==0)return 0;//如果是0，直接返回
+        return fabs(mySqrt_Newton(x,x ));//a*a=x,初值给x
+//        if(a*a>x) return a-1;
+//        else return a;
+//        return mySqrt(x,0,x);
     }
+    double mySqrt_Newton(unsigned int x,double a)//x为需要开根号的数，min max为解的范围，供迭代使用
+    {
+        double delta_a=1;//给个初值，需要大于阈值
+        while (fabs(delta_a)>1e-5)//步长小于阈值，不再迭代
+        {
+            delta_a=-(a*a-x)/(2*a);//求delta—a ，牛顿迭代公式
+            a+=delta_a;//更新
+        }
+        return a;
+    }
+
     unsigned long int mySqrt(unsigned long int x,unsigned long int  min,unsigned long int max)//x为需要开根号的数，min max为解的范围，供迭代使用
     {
         unsigned long int a=round(0.5*(min+max));//二分选取点
@@ -60,5 +75,5 @@ public:
 int main()
 {
    Solution s;
-   cout<<s.mySqrt(2147395600);
+   cout<<s.mySqrt(505553488);
 }
