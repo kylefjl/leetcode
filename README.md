@@ -276,3 +276,9 @@
      
 	   >执行耗时:8 ms,击败了64.06% 的C++用户
 	   >内存消耗:11.4 MB,击败了32.96% 的C++用户
+
+41.  直线上最多的点数
+     - [题目](editor/cn/doc/content/P149_MaxPointsOnALine.md)  [程序](editor/cn/P149_MaxPointsOnALine.cpp) [笔记](editor/cn/doc/note/P149_MaxPointsOnALine.md)
+     
+	   >执行耗时:8 ms,击败了100.00% 的C++用户
+	   >内存消耗:9.5 MB,击败了78.74% 的C++用户
