@@ -282,3 +282,9 @@
      
 	   >执行耗时:8 ms,击败了100.00% 的C++用户
 	   >内存消耗:9.5 MB,击败了78.74% 的C++用户
+
+42.  矩阵中的路径
+     - [题目](editor/cn/doc/content/JuZhenZhongDeLuJingLcof.md)  [程序](editor/cn/JuZhenZhongDeLuJingLcof.cpp) [笔记](editor/cn/doc/note/JuZhenZhongDeLuJingLcof.md)
+     
+	   >执行耗时:148 ms,击败了97.62% 的C++用户
+	   >内存消耗:6.2 MB,击败了29.96% 的C++用户
