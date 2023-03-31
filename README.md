@@ -288,3 +288,9 @@
      
 	   >执行耗时:148 ms,击败了97.62% 的C++用户
 	   >内存消耗:6.2 MB,击败了29.96% 的C++用户
+
+43.  O(1) 时间插入、删除和获取随机元素
+     - [题目](editor/cn/doc/content/P380_InsertDeleteGetrandomO1.md)  [程序](editor/cn/P380_InsertDeleteGetrandomO1.cpp) [笔记](editor/cn/doc/note/P380_InsertDeleteGetrandomO1.md)
+     
+	   >执行耗时:184 ms,击败了84.05% 的C++用户
+	   >内存消耗:94.8 MB,击败了27.00% 的C++用户

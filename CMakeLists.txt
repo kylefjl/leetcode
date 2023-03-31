@@ -81,3 +81,5 @@ add_executable(P61_RotateList editor/cn/P61_RotateList.cpp)
 add_executable(P149_MaxPointsOnALine editor/cn/P149_MaxPointsOnALine.cpp)
 
 add_executable(JuZhenZhongDeLuJingLcof editor/cn/JuZhenZhongDeLuJingLcof.cpp)
+
+add_executable(P380_InsertDeleteGetrandomO1 editor/cn/P380_InsertDeleteGetrandomO1.cpp)
