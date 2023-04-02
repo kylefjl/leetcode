@@ -83,3 +83,9 @@ add_executable(P149_MaxPointsOnALine editor/cn/P149_MaxPointsOnALine.cpp)
 add_executable(JuZhenZhongDeLuJingLcof editor/cn/JuZhenZhongDeLuJingLcof.cpp)
 
 add_executable(P380_InsertDeleteGetrandomO1 editor/cn/P380_InsertDeleteGetrandomO1.cpp)
+
+add_executable(P118_PascalsTriangle editor/cn/P118_PascalsTriangle.cpp)
+
+add_executable(P121_BestTimeToBuyAndSellStock editor/cn/P121_BestTimeToBuyAndSellStock.cpp)
+
+add_executable(P75_SortColors editor/cn/P75_SortColors.cpp)

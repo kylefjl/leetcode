@@ -294,3 +294,27 @@
      
 	   >执行耗时:184 ms,击败了84.05% 的C++用户
 	   >内存消耗:94.8 MB,击败了27.00% 的C++用户
+
+44.  颜色分类
+     - [题目](editor/cn/doc/content/P75_SortColors.md)  [程序](editor/cn/P75_SortColors.cpp) [笔记](editor/cn/doc/note/P75_SortColors.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:8 MB,击败了47.63% 的C++用户
+
+45.  杨辉三角
+     - [题目](editor/cn/doc/content/P118_PascalsTriangle.md)  [程序](editor/cn/P118_PascalsTriangle.cpp) [笔记](editor/cn/doc/note/P118_PascalsTriangle.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:6.5 MB,击败了70.22% 的C++用户
+
+46.  杨辉三角 II
+     - [题目](editor/cn/doc/content/P119_PascalsTriangleIi.md)  [程序](editor/cn/P119_PascalsTriangleIi.cpp) [笔记](editor/cn/doc/note/P119_PascalsTriangleIi.md)
+     
+	   >执行耗时:0 ms,击败了100.00% 的C++用户
+	   >内存消耗:6.2 MB,击败了65.93% 的C++用户
+
+47.  买卖股票的最佳时机
+     - [题目](editor/cn/doc/content/P121_BestTimeToBuyAndSellStock.md)  [程序](editor/cn/P121_BestTimeToBuyAndSellStock.cpp) [笔记](editor/cn/doc/note/P121_BestTimeToBuyAndSellStock.md)
+     
+	   >执行耗时:100 ms,击败了72.07% 的C++用户
+	   >内存消耗:91.3 MB,击败了31.97% 的C++用户
