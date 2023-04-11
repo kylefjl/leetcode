@@ -90,5 +90,6 @@ add_executable(P121_BestTimeToBuyAndSellStock editor/cn/P121_BestTimeToBuyAndSel
 
 add_executable(P75_SortColors editor/cn/P75_SortColors.cpp)
 
-
 add_executable(P1847_ClosestRoom editor/cn/P1847_ClosestRoom.cpp)
+
+add_executable(P239_SlidingWindowMaximum editor/cn/P239_SlidingWindowMaximum.cpp)
