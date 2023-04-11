@@ -89,3 +89,6 @@ add_executable(P118_PascalsTriangle editor/cn/P118_PascalsTriangle.cpp)
 add_executable(P121_BestTimeToBuyAndSellStock editor/cn/P121_BestTimeToBuyAndSellStock.cpp)
 
 add_executable(P75_SortColors editor/cn/P75_SortColors.cpp)
+
+
+add_executable(P1847_ClosestRoom editor/cn/P1847_ClosestRoom.cpp)

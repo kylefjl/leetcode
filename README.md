@@ -318,3 +318,9 @@
      
 	   >执行耗时:100 ms,击败了72.07% 的C++用户
 	   >内存消耗:91.3 MB,击败了31.97% 的C++用户
+
+48.  最近的房间
+     - [题目](editor/cn/doc/content/P1847_ClosestRoom.md)  [程序](editor/cn/P1847_ClosestRoom.cpp) [笔记](editor/cn/doc/note/P1847_ClosestRoom.md)
+     
+	   >执行耗时:744 ms,击败了10.29% 的C++用户
+	   >内存消耗:172.2 MB,击败了26.47% 的C++用户
