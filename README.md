@@ -325,4 +325,8 @@
 	   >执行耗时:744 ms,击败了10.29% 的C++用户
 	   >内存消耗:172.2 MB,击败了26.47% 的C++用户
 
-//滑动窗口的平均值
+49.  滑动窗口最大值
+     - [题目](editor/cn/doc/content/P239_SlidingWindowMaximum.md)  [程序](editor/cn/P239_SlidingWindowMaximum.cpp) [笔记](editor/cn/doc/note/P239_SlidingWindowMaximum.md)
+     
+	   >执行耗时:244 ms,击败了41.29% 的C++用户
+	   >内存消耗:143.1 MB,击败了20.80% 的C++用户
