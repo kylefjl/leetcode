@@ -330,3 +330,9 @@
      
 	   >执行耗时:244 ms,击败了41.29% 的C++用户
 	   >内存消耗:143.1 MB,击败了20.80% 的C++用户
+
+50.  滑动窗口的平均值
+     - [题目](editor/cn/doc/content/PQIsx9U.md)  [程序](editor/cn/PQIsx9U.cpp) [笔记](editor/cn/doc/note/PQIsx9U.md)
+     
+	   >执行耗时:12 ms,击败了98.73% 的C++用户
+	   >内存消耗:13.6 MB,击败了58.78% 的C++用户

@@ -93,3 +93,9 @@ add_executable(P75_SortColors editor/cn/P75_SortColors.cpp)
 add_executable(P1847_ClosestRoom editor/cn/P1847_ClosestRoom.cpp)
 
 add_executable(P239_SlidingWindowMaximum editor/cn/P239_SlidingWindowMaximum.cpp)
+
+add_executable(PQIsx9U editor/cn/PQIsx9U.cpp)
+
+add_executable(P480_SlidingWindowMedian editor/cn/P480_SlidingWindowMedian.cpp)
+
+add_executable(P295_FindMedianFromDataStream editor/cn/P295_FindMedianFromDataStream.cpp)
