@@ -71,19 +71,19 @@ public:
     }
 
 //   单调队列
-    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        assert(k>0&&nums.size()>=k);//k必须大于0，且nums的长度必须大于等于k
-        vector<int> res(nums.size()-(k-1));//结果数组
-        deque<pair<int,int>> d_equeue;//单调增 双端队列 存放的是元素的值和下标
-        for (int i = 0; i <nums.size() ; ++i)//遍历数组，模拟滑窗
-        {
-            while(!d_equeue.empty()&&d_equeue.front().first<=nums[i])d_equeue.pop_front();//弹出队列头中小于当前元素的元素
-            d_equeue.emplace_front(nums[i],i);//将当前元素放入队列头
-            while(!d_equeue.empty()&&d_equeue.back().second<=(i-k))d_equeue.pop_back();//弹出队列尾不在窗口内的元素
-            if(i>=(k-1))res[i-(k-1)]=d_equeue.back().first;//将窗口内最大值放入结果数组
-        }
-        return res;
-    }
+//    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+//        assert(k>0&&nums.size()>=k);//k必须大于0，且nums的长度必须大于等于k
+//        vector<int> res(nums.size()-(k-1));//结果数组
+//        deque<pair<int,int>> d_equeue;//单调增 双端队列 存放的是元素的值和下标
+//        for (int i = 0; i <nums.size() ; ++i)//遍历数组，模拟滑窗
+//        {
+//            while(!d_equeue.empty()&&d_equeue.front().first<=nums[i])d_equeue.pop_front();//弹出队列头中小于当前元素的元素
+//            d_equeue.emplace_front(nums[i],i);//将当前元素放入队列头
+//            while(!d_equeue.empty()&&d_equeue.back().second<=(i-k))d_equeue.pop_back();//弹出队列尾不在窗口内的元素
+//            if(i>=(k-1))res[i-(k-1)]=d_equeue.back().first;//将窗口内最大值放入结果数组
+//        }
+//        return res;
+//    }
 };
 //leetcode submit region end(Prohibit modification and deletion)
 
