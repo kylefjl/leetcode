@@ -73,7 +73,7 @@
 	  >内存消耗:14.4 MB,击败了34.20% 的C++用户
 
 7.  合并K个升序链表
-    - [题目](editor/cn/doc/content/P23_MergeKSortedLists.md)  [程序](editor/cn/P23_MergeKSortedLists.cpp) [笔记](editor/cn/doc/note/P23_MergeKSortedLists.md)
+    - [题目](editor/cn/doc/content/P23_MergeKSortedLists.md)  [程序](editor/cn/P23_MergeKSortedLists.cpp) [笔记P295 数据流的中位数](editor/cn/doc/note/P23_MergeKSortedLists.md)
     
 	  >执行耗时:24 ms,击败了52.73% 的C++用户
 	  >内存消耗:13.5 MB,击败了21.58% 的C++用户
@@ -336,3 +336,9 @@
      
 	   >执行耗时:12 ms,击败了98.73% 的C++用户
 	   >内存消耗:13.6 MB,击败了58.78% 的C++用户
+
+51.  数据流的中位数
+     - [题目](editor/cn/doc/content/P295_FindMedianFromDataStream.md)  [程序](editor/cn/P295_FindMedianFromDataStream.cpp) [笔记](editor/cn/doc/note/P295_FindMedianFromDataStream.md)
+     
+	   >执行耗时:276 ms,击败了73.96% 的C++用户
+	   >内存消耗:114.3 MB,击败了26.84% 的C++用户
