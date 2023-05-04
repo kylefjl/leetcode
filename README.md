@@ -342,3 +342,10 @@
      
 	   >执行耗时:276 ms,击败了73.96% 的C++用户
 	   >内存消耗:114.3 MB,击败了26.84% 的C++用户
+
+52.  滑动窗口中位数
+     - [题目](editor/cn/doc/content/P480_SlidingWindowMedian.md)  [程序](editor/cn/P480_SlidingWindowMedian.cpp) [笔记](editor/cn/doc/note/P480_SlidingWindowMedian.md)
+     
+	   >执行耗时:92 ms,击败了54.96% 的C++用户
+	   >内存消耗:32 MB,击败了41.44% 的C++用户
+
