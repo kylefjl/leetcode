@@ -99,3 +99,4 @@ add_executable(PQIsx9U editor/cn/PQIsx9U.cpp)
 add_executable(P480_SlidingWindowMedian editor/cn/P480_SlidingWindowMedian.cpp)
 
 add_executable(P295_FindMedianFromDataStream editor/cn/P295_FindMedianFromDataStream.cpp)
+add_executable(P661_ImageSmoother editor/cn/P661_ImageSmoother.cpp)

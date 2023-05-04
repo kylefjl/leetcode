@@ -349,3 +349,9 @@
 	   >执行耗时:92 ms,击败了54.96% 的C++用户
 	   >内存消耗:32 MB,击败了41.44% 的C++用户
 
+53.  图片平滑器
+     - [题目](editor/cn/doc/content/P661_ImageSmoother.md)  [程序](editor/cn/P661_ImageSmoother.cpp) [笔记](editor/cn/doc/note/P661_ImageSmoother.md)
+     
+	   >执行耗时:48 ms,击败了61.37% 的C++用户
+	   >内存消耗:23.7 MB,击败了7.63% 的C++用户
+
