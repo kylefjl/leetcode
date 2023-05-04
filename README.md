@@ -73,7 +73,7 @@
 	  >内存消耗:14.4 MB,击败了34.20% 的C++用户
 
 7.  合并K个升序链表
-    - [题目](editor/cn/doc/content/P23_MergeKSortedLists.md)  [程序](editor/cn/P23_MergeKSortedLists.cpp) [笔记](editor/cn/doc/note/P23_MergeKSortedLists.md)
+    - [题目](editor/cn/doc/content/P23_MergeKSortedLists.md)  [程序](editor/cn/P23_MergeKSortedLists.cpp) [笔记P295 数据流的中位数](editor/cn/doc/note/P23_MergeKSortedLists.md)
     
 	  >执行耗时:24 ms,击败了52.73% 的C++用户
 	  >内存消耗:13.5 MB,击败了21.58% 的C++用户
@@ -324,3 +324,34 @@
      
 	   >执行耗时:744 ms,击败了10.29% 的C++用户
 	   >内存消耗:172.2 MB,击败了26.47% 的C++用户
+
+49.  滑动窗口最大值
+     - [题目](editor/cn/doc/content/P239_SlidingWindowMaximum.md)  [程序](editor/cn/P239_SlidingWindowMaximum.cpp) [笔记](editor/cn/doc/note/P239_SlidingWindowMaximum.md)
+     
+	   >执行耗时:244 ms,击败了41.29% 的C++用户
+	   >内存消耗:143.1 MB,击败了20.80% 的C++用户
+
+50.  滑动窗口的平均值
+     - [题目](editor/cn/doc/content/PQIsx9U.md)  [程序](editor/cn/PQIsx9U.cpp) [笔记](editor/cn/doc/note/PQIsx9U.md)
+     
+	   >执行耗时:12 ms,击败了98.73% 的C++用户
+	   >内存消耗:13.6 MB,击败了58.78% 的C++用户
+
+51.  数据流的中位数
+     - [题目](editor/cn/doc/content/P295_FindMedianFromDataStream.md)  [程序](editor/cn/P295_FindMedianFromDataStream.cpp) [笔记](editor/cn/doc/note/P295_FindMedianFromDataStream.md)
+     
+	   >执行耗时:276 ms,击败了73.96% 的C++用户
+	   >内存消耗:114.3 MB,击败了26.84% 的C++用户
+
+52.  滑动窗口中位数
+     - [题目](editor/cn/doc/content/P480_SlidingWindowMedian.md)  [程序](editor/cn/P480_SlidingWindowMedian.cpp) [笔记](editor/cn/doc/note/P480_SlidingWindowMedian.md)
+     
+	   >执行耗时:92 ms,击败了54.96% 的C++用户
+	   >内存消耗:32 MB,击败了41.44% 的C++用户
+
+53.  图片平滑器
+     - [题目](editor/cn/doc/content/P661_ImageSmoother.md)  [程序](editor/cn/P661_ImageSmoother.cpp) [笔记](editor/cn/doc/note/P661_ImageSmoother.md)
+     
+	   >执行耗时:48 ms,击败了61.37% 的C++用户
+	   >内存消耗:23.7 MB,击败了7.63% 的C++用户
+
