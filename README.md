@@ -355,3 +355,9 @@
 	   >执行耗时:48 ms,击败了61.37% 的C++用户
 	   >内存消耗:23.7 MB,击败了7.63% 的C++用户
 
+54.  在圆内随机生成点
+     - [题目](editor/cn/doc/content/P478_GenerateRandomPointInACircle.md)  [程序](editor/cn/P478_GenerateRandomPointInACircle.cpp) [笔记](editor/cn/doc/note/P478_GenerateRandomPointInACircle.md)
+     
+	   >执行耗时:48 ms,击败了61.37% 的C++用户
+	   >内存消耗:23.7 MB,击败了7.63% 的C++用户
+
