@@ -361,3 +361,9 @@
 	   >执行耗时:48 ms,击败了61.37% 的C++用户
 	   >内存消耗:23.7 MB,击败了7.63% 的C++用户
 
+55.  统计圆内格点数目
+     - [题目](editor/cn/doc/content/P2249_CountLatticePointsInsideACircle.md)  [程序](editor/cn/P2249_CountLatticePointsInsideACircle.cpp) [笔记](editor/cn/doc/note/P2249_CountLatticePointsInsideACircle.md)
+     
+	   >执行耗时:128 ms,击败了87.79% 的C++用户
+	   >内存消耗:7.6 MB,击败了87.02% 的C++用户
+
