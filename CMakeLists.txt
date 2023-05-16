@@ -105,3 +105,6 @@ add_executable(P2249_CountLatticePointsInsideACircle editor/cn/P2249_CountLattic
 
 
 
+
+
+add_executable(P1515_BestPositionForAServiceCentre editor/cn/P1515_BestPositionForAServiceCentre.cpp)

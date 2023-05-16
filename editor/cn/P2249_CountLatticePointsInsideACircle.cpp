@@ -51,8 +51,6 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-#include <matplotlibcpp.h>
-namespace plt=matplotlibcpp;
 
 /*
 * 统计圆内格点数目
