@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P1114_PrintInOrder.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P1114_PrintInOrder.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1114" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P1114_PrintInOrder.cpp" />
+              <option name="titleSlug" value="print-in-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P118_PascalsTriangle.cpp">
           <value>
             <LeetcodeEditor>
