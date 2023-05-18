@@ -367,3 +367,8 @@
 	   >执行耗时:128 ms,击败了87.79% 的C++用户
 	   >内存消耗:7.6 MB,击败了87.02% 的C++用户
 
+56.  服务中心的最佳位置
+     - [题目](editor/cn/doc/content/P1515_BestPositionForAServiceCentre.md)  [程序](editor/cn/P1515_BestPositionForAServiceCentre.cpp) [笔记](editor/cn/doc/note/P1515_BestPositionForAServiceCentre.md)
+     
+	   >执行耗时:40 ms,击败了68.57% 的C++用户
+	   >内存消耗:7.4 MB,击败了92.38% 的C++用户
