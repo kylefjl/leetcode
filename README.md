@@ -372,3 +372,10 @@
      
 	   >执行耗时:40 ms,击败了68.57% 的C++用户
 	   >内存消耗:7.4 MB,击败了92.38% 的C++用户
+
+57.  按序打印
+     - [题目](editor/cn/doc/content/P1114_PrintInOrder.md)  [程序](editor/cn/P1114_PrintInOrder.cpp) [笔记](editor/cn/doc/note/P1114_PrintInOrder.md)
+     
+	   >执行耗时:64 ms,击败了78.95% 的C++用户
+	   >内存消耗:7.2 MB,击败了5.06% 的C++用户
+
