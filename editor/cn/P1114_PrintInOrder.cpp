@@ -137,29 +137,48 @@ using namespace std;
 //};
 // TODO 异步编程模型
 // 原子操作
+//class Foo {
+//public:
+//    Foo()= default;
+//    void first(function<void()> printFirst) {
+//        printFirst();//
+//        a=true;
+//    }
+//    void second(function<void()> printSecond) {
+//        while (a==false)
+//            this_thread::sleep_for(chrono::milliseconds(1));
+//        printSecond();
+//       b=true;
+//    }
+//
+//    void third(function<void()> printThird) {
+//        while (b==false)
+//            this_thread::sleep_for(chrono::milliseconds(1));
+//        printThird();
+//    }
+//private:
+//    std::atomic<bool> a{ false };//原子操作，对a的操作不会导致数据争用
+//    std::atomic<bool> b{ false };//原子操作
+//};
 class Foo {
-public:
-    Foo()= default;
-    void first(function<void()> printFirst) {
+    promise<void> pro1, pro2;//promise对象
 
+public:
+    void first(function<void()> printFirst) {
         printFirst();
-        a=true;
+        pro1.set_value();//设置共享状态为就绪
     }
+
     void second(function<void()> printSecond) {
-        while (a==false)
-            this_thread::sleep_for(chrono::milliseconds(1));
+        pro1.get_future().wait();//等待就绪
         printSecond();
-       b=true;
+        pro2.set_value();//设置共享状态为就绪
     }
 
     void third(function<void()> printThird) {
-        while (b==false)
-            this_thread::sleep_for(chrono::milliseconds(1));
-        printThird();
+        pro2.get_future().wait();//等待就绪
+        printThird();//打印
     }
-private:
-    std::atomic<bool> a{ false };
-    std::atomic<bool> b{ false };
 };
 //leetcode submit region end(Prohibit modification and deletion)
 
@@ -173,6 +192,4 @@ int main()
     t1.join();
     t2.join();
     t3.join();
-
-
 }
