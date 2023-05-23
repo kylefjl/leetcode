@@ -379,3 +379,9 @@
 	   >执行耗时:64 ms,击败了78.95% 的C++用户
 	   >内存消耗:7.2 MB,击败了5.06% 的C++用户
 
+58.  交替打印 FooBar
+     - [题目](editor/cn/doc/content/P1115_PrintFoobarAlternately.md)  [程序](editor/cn/P1115_PrintFoobarAlternately.cpp) [笔记](editor/cn/doc/note/P1115_PrintFoobarAlternately.md)
+     
+	   >执行耗时:140 ms,击败了89.00% 的C++用户
+	   >内存消耗:8.9 MB,击败了7.48% 的C++用户
+
