@@ -99,12 +99,21 @@ add_executable(PQIsx9U editor/cn/PQIsx9U.cpp)
 add_executable(P480_SlidingWindowMedian editor/cn/P480_SlidingWindowMedian.cpp)
 
 add_executable(P295_FindMedianFromDataStream editor/cn/P295_FindMedianFromDataStream.cpp)
+
 add_executable(P661_ImageSmoother editor/cn/P661_ImageSmoother.cpp)
+
 add_executable(P478_GenerateRandomPointInACircle editor/cn/P478_GenerateRandomPointInACircle.cpp)
+
 add_executable(P2249_CountLatticePointsInsideACircle editor/cn/P2249_CountLatticePointsInsideACircle.cpp)
 
-
-
-
-
 add_executable(P1515_BestPositionForAServiceCentre editor/cn/P1515_BestPositionForAServiceCentre.cpp)
+
+add_executable(P1114_PrintInOrder editor/cn/P1114_PrintInOrder.cpp)
+
+target_link_libraries(P1114_PrintInOrder pthread)
+
+add_executable(P1115_PrintFoobarAlternately editor/cn/P1115_PrintFoobarAlternately.cpp)
+
+add_executable(P464_CanIWin editor/cn/P464_CanIWin.cpp)
+
+add_executable(P218_TheSkylineProblem editor/cn/P218_TheSkylineProblem.cpp)
