@@ -410,6 +410,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P587_ErectTheFence.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P587_ErectTheFence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn587" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P587_ErectTheFence.cpp" />
+              <option name="titleSlug" value="erect-the-fence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P61_RotateList.cpp">
           <value>
             <LeetcodeEditor>
