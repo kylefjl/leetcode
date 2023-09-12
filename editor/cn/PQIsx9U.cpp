@@ -81,7 +81,7 @@ public:
     int nums_size;//记录的值的个数
     vector<int> nums;//记录的值
     int left_idx=0;//最早的值的位置
-    long long int window_sum=0;//窗口的和
+    T window_sum=0;//窗口的和
 };
 
 /**
