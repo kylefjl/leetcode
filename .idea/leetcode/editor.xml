@@ -212,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P218_TheSkylineProblem.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P218_TheSkylineProblem.md" />
+              <option name="frontendQuestionId" value="leetcode.cn218" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P218_TheSkylineProblem.cpp" />
+              <option name="titleSlug" value="the-skyline-problem" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P2249_CountLatticePointsInsideACircle.cpp">
           <value>
             <LeetcodeEditor>
@@ -352,6 +363,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/P44_WildcardMatching.cpp" />
               <option name="titleSlug" value="wildcard-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P464_CanIWin.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P464_CanIWin.md" />
+              <option name="frontendQuestionId" value="leetcode.cn464" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P464_CanIWin.cpp" />
+              <option name="titleSlug" value="can-i-win" />
             </LeetcodeEditor>
           </value>
         </entry>
