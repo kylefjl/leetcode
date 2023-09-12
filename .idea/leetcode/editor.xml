@@ -212,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P200_NumberOfIslands.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P200_NumberOfIslands.md" />
+              <option name="frontendQuestionId" value="leetcode.cn200" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P200_NumberOfIslands.cpp" />
+              <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P218_TheSkylineProblem.cpp">
           <value>
             <LeetcodeEditor>
