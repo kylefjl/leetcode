@@ -114,6 +114,6 @@ target_link_libraries(P1114_PrintInOrder pthread)
 
 add_executable(P1115_PrintFoobarAlternately editor/cn/P1115_PrintFoobarAlternately.cpp)
 
-add_executable(P464_CanIWin editor/cn/P464_CanIWin.cpp)
+add_executable(P587_ErectTheFence editor/cn/P587_ErectTheFence.cpp)
 
-add_executable(P218_TheSkylineProblem editor/cn/P218_TheSkylineProblem.cpp)
+add_executable(P200_NumberOfIslands editor/cn/P200_NumberOfIslands.cpp)

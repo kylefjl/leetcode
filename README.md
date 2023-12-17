@@ -385,3 +385,8 @@
 	   >执行耗时:140 ms,击败了89.00% 的C++用户
 	   >内存消耗:8.9 MB,击败了7.48% 的C++用户
 
+59.  岛屿数量
+     - [题目](editor/cn/doc/content/P200_NumberOfIslands.md)  [程序](editor/cn/P200_NumberOfIslands.cpp) [笔记](editor/cn/doc/note/P200_NumberOfIslands.md)
+     
+	   >执行耗时:28 ms,击败了90.43% 的C++用户
+	   >内存消耗:15.5 MB,击败了20.75% 的C++用户
