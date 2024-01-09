@@ -117,3 +117,5 @@ add_executable(P1115_PrintFoobarAlternately editor/cn/P1115_PrintFoobarAlternate
 add_executable(P587_ErectTheFence editor/cn/P587_ErectTheFence.cpp)
 
 add_executable(P200_NumberOfIslands editor/cn/P200_NumberOfIslands.cpp)
+
+add_executable(P1093_StatisticsFromALargeSample editor/cn/P1093_StatisticsFromALargeSample.cpp)

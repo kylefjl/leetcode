@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P1093_StatisticsFromALargeSample.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P1093_StatisticsFromALargeSample.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1093" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P1093_StatisticsFromALargeSample.cpp" />
+              <option name="titleSlug" value="statistics-from-a-large-sample" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P1114_PrintInOrder.cpp">
           <value>
             <LeetcodeEditor>
@@ -517,6 +528,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/P75_SortColors.cpp" />
               <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P808_SoupServings.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P808_SoupServings.md" />
+              <option name="frontendQuestionId" value="leetcode.cn808" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P808_SoupServings.cpp" />
+              <option name="titleSlug" value="soup-servings" />
             </LeetcodeEditor>
           </value>
         </entry>
