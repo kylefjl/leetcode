@@ -119,3 +119,7 @@ add_executable(P587_ErectTheFence editor/cn/P587_ErectTheFence.cpp)
 add_executable(P200_NumberOfIslands editor/cn/P200_NumberOfIslands.cpp)
 
 add_executable(P1093_StatisticsFromALargeSample editor/cn/P1093_StatisticsFromALargeSample.cpp)
+
+add_executable(P704_BinarySearch editor/cn/P704_BinarySearch.cpp)
+
+add_executable(P27_RemoveElement editor/cn/P27_RemoveElement.cpp)
