@@ -123,3 +123,5 @@ add_executable(P1093_StatisticsFromALargeSample editor/cn/P1093_StatisticsFromAL
 add_executable(P704_BinarySearch editor/cn/P704_BinarySearch.cpp)
 
 add_executable(P27_RemoveElement editor/cn/P27_RemoveElement.cpp)
+
+add_executable(P977_SquaresOfASortedArray editor/cn/P977_SquaresOfASortedArray.cpp)
