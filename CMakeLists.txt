@@ -127,3 +127,5 @@ add_executable(P27_RemoveElement editor/cn/P27_RemoveElement.cpp)
 add_executable(P977_SquaresOfASortedArray editor/cn/P977_SquaresOfASortedArray.cpp)
 
 add_executable(P209_MinimumSizeSubarraySum editor/cn/P209_MinimumSizeSubarraySum.cpp)
+
+add_executable(P59_SpiralMatrixIi editor/cn/P59_SpiralMatrixIi.cpp)
