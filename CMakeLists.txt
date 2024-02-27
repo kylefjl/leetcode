@@ -137,3 +137,5 @@ add_executable(P707_DesignLinkedList editor/cn/P707_DesignLinkedList.cpp)
 add_executable(P206_ReverseLinkedList editor/cn/P206_ReverseLinkedList.cpp)
 
 add_executable(P19_RemoveNthNodeFromEndOfList editor/cn/P19_RemoveNthNodeFromEndOfList.cpp)
+
+add_executable(P160_IntersectionOfTwoLinkedLists editor/cn/P160_IntersectionOfTwoLinkedLists.cpp)
