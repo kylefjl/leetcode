@@ -135,3 +135,5 @@ add_executable(P203_RemoveLinkedListElements editor/cn/P203_RemoveLinkedListElem
 add_executable(P707_DesignLinkedList editor/cn/P707_DesignLinkedList.cpp)
 
 add_executable(P206_ReverseLinkedList editor/cn/P206_ReverseLinkedList.cpp)
+
+add_executable(P19_RemoveNthNodeFromEndOfList editor/cn/P19_RemoveNthNodeFromEndOfList.cpp)
