@@ -61,37 +61,37 @@ public:
 //        }
         //迭代 用set存储每次的结果 如果结果重复 则不是快乐数
 
-        unordered_set<int> visited;
+        unordered_set<int> visited;// 哈希表
         int sum=getSum(n);
         while(true)
         {
-            if(sum!=1&&visited.count(sum))
+            if(sum!=1&&visited.count(sum))//如果结果重复 则不是快乐数
             {
                 return false;
             }
-            else if(sum==1)
+            else if(sum==1)//如果结果为1 则是快乐数
             {
                 return true;
             }
-            visited.insert(sum);
-            sum=getSum(sum);
+            visited.insert(sum);//将结果加入哈希表
+            sum=getSum(sum);//计算下一个结果
         }
 
     }
     bool isHappy(int n,unordered_set<int> &visited) {
-        if(n!=1&&visited.count(n))
+        if(n!=1&&visited.count(n))//如果结果重复 则不是快乐数
         {
             return false;
         }
-        else if(n==1)
+        else if(n==1)//如果结果为1 则是快乐数
         {
             return true;
         }
-        visited.insert(n);
-        n=getSum(n);
-        return isHappy(n,visited);
+        visited.insert(n);//将结果加入哈希表
+        n=getSum(n);//计算下一个结果
+        return isHappy(n,visited);//递归
     }
-   static inline int getSum(int n) {
+   static inline int getSum(int n) {//计算每一位的平方和
         int sum = 0;
         while (n) {
             sum += (n % 10) * (n % 10);
