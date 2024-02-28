@@ -143,3 +143,5 @@ add_executable(P160_IntersectionOfTwoLinkedLists editor/cn/P160_IntersectionOfTw
 add_executable(P142_LinkedListCycleIi editor/cn/P142_LinkedListCycleIi.cpp)
 
 add_executable(P242_ValidAnagram editor/cn/P242_ValidAnagram.cpp)
+
+add_executable(P202_HappyNumber editor/cn/P202_HappyNumber.cpp)
