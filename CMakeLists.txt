@@ -145,3 +145,7 @@ add_executable(P142_LinkedListCycleIi editor/cn/P142_LinkedListCycleIi.cpp)
 add_executable(P242_ValidAnagram editor/cn/P242_ValidAnagram.cpp)
 
 add_executable(P202_HappyNumber editor/cn/P202_HappyNumber.cpp)
+
+add_executable(P454_FourSumIi editor/cn/P454_FourSumIi.cpp)
+
+add_executable(P18_FourSum editor/cn/P18_FourSum.cpp)

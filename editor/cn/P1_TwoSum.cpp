@@ -92,6 +92,7 @@ public:
                 }
                 else //对应键有多个数
                 {
+                    454
                     auto range = hash_map.equal_range(target - nums[i]);//get数的首位迭代器
                     for (auto i = range.first; i != range.second; ++i)
                     {
