@@ -168,6 +168,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P151_ReverseWordsInAString.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P151_ReverseWordsInAString.md" />
+              <option name="frontendQuestionId" value="leetcode.cn151" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P151_ReverseWordsInAString.cpp" />
+              <option name="titleSlug" value="reverse-words-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P1557_MinimumNumberOfVerticesToReachAllNodes.cpp">
           <value>
             <LeetcodeEditor>
@@ -440,6 +451,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/P295_FindMedianFromDataStream.cpp" />
               <option name="titleSlug" value="find-median-from-data-stream" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P344_ReverseString.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P344_ReverseString.md" />
+              <option name="frontendQuestionId" value="leetcode.cn344" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P344_ReverseString.cpp" />
+              <option name="titleSlug" value="reverse-string" />
             </LeetcodeEditor>
           </value>
         </entry>
