@@ -153,3 +153,5 @@ add_executable(P18_FourSum editor/cn/P18_FourSum.cpp)
 add_executable(P151_ReverseWordsInAString editor/cn/P151_ReverseWordsInAString.cpp)
 
 add_executable(P28_FindTheIndexOfTheFirstOccurrenceInAString editor/cn/P28_FindTheIndexOfTheFirstOccurrenceInAString.cpp)
+
+add_executable(P459_RepeatedSubstringPattern editor/cn/P459_RepeatedSubstringPattern.cpp)

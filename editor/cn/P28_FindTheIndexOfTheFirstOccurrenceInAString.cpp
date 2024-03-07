@@ -48,7 +48,7 @@ public:
         getNext(needle,next);
         return kmp(haystack,needle,next);
     }
-    //kmp算法 haystack为主串 needle为模式串 next为前缀表 返回匹配项的下标
+    //kmp算法 haystack为主串 needle为模式串 next为前缀表 返回匹配项的下标 复杂度 O(n+m)
     int kmp(string&  haystack,string & needle,vector<int> &next){
         int j = 0;
         for (int i = 0; i < haystack.size(); ++i)//从前往后找
@@ -58,7 +58,7 @@ public:
                 j = next[j-1]+1 ;//回退到前缀表的值
             }
             if(needle[j] == haystack[i])//如果匹配
-            {
+            { //执行次数 最多 n 次
                 j++;//模式串的指针后移
             }
             if(j == needle.size())//如果匹配完了
@@ -68,6 +68,7 @@ public:
         }
         return -1;
     }
+    // 复杂度 O(m^2)
     void getNext(string needle,vector<int> &next){
         for (int i = 0; i < needle.size(); ++i)//从前往后找
         {
