@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P1047_RemoveAllAdjacentDuplicatesInString.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P1047_RemoveAllAdjacentDuplicatesInString.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1047" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P1047_RemoveAllAdjacentDuplicatesInString.cpp" />
+              <option name="titleSlug" value="remove-all-adjacent-duplicates-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P1093_StatisticsFromALargeSample.cpp">
           <value>
             <LeetcodeEditor>

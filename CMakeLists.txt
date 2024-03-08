@@ -159,3 +159,4 @@ add_executable(P459_RepeatedSubstringPattern editor/cn/P459_RepeatedSubstringPat
 add_executable(P232_ImplementQueueUsingStacks editor/cn/P232_ImplementQueueUsingStacks.cpp)
 
 add_executable(P225_ImplementStackUsingQueues editor/cn/P225_ImplementStackUsingQueues.cpp)
+add_executable(P1047_RemoveAllAdjacentDuplicatesInString editor/cn/P1047_RemoveAllAdjacentDuplicatesInString.cpp)
