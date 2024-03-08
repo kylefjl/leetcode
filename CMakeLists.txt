@@ -163,3 +163,5 @@ add_executable(P225_ImplementStackUsingQueues editor/cn/P225_ImplementStackUsing
 add_executable(P1047_RemoveAllAdjacentDuplicatesInString editor/cn/P1047_RemoveAllAdjacentDuplicatesInString.cpp)
 
 add_executable(P150_EvaluateReversePolishNotation editor/cn/P150_EvaluateReversePolishNotation.cpp)
+
+add_executable(P347_TopKFrequentElements editor/cn/P347_TopKFrequentElements.cpp)
