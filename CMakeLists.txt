@@ -155,3 +155,5 @@ add_executable(P151_ReverseWordsInAString editor/cn/P151_ReverseWordsInAString.c
 add_executable(P28_FindTheIndexOfTheFirstOccurrenceInAString editor/cn/P28_FindTheIndexOfTheFirstOccurrenceInAString.cpp)
 
 add_executable(P459_RepeatedSubstringPattern editor/cn/P459_RepeatedSubstringPattern.cpp)
+
+add_executable(P232_ImplementQueueUsingStacks editor/cn/P232_ImplementQueueUsingStacks.cpp)
