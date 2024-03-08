@@ -168,6 +168,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P150_EvaluateReversePolishNotation.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P150_EvaluateReversePolishNotation.md" />
+              <option name="frontendQuestionId" value="leetcode.cn150" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P150_EvaluateReversePolishNotation.cpp" />
+              <option name="titleSlug" value="evaluate-reverse-polish-notation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P1515_BestPositionForAServiceCentre.cpp">
           <value>
             <LeetcodeEditor>
