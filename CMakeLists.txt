@@ -157,3 +157,5 @@ add_executable(P28_FindTheIndexOfTheFirstOccurrenceInAString editor/cn/P28_FindT
 add_executable(P459_RepeatedSubstringPattern editor/cn/P459_RepeatedSubstringPattern.cpp)
 
 add_executable(P232_ImplementQueueUsingStacks editor/cn/P232_ImplementQueueUsingStacks.cpp)
+
+add_executable(P225_ImplementStackUsingQueues editor/cn/P225_ImplementStackUsingQueues.cpp)

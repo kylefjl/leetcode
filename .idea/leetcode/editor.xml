@@ -355,6 +355,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P225_ImplementStackUsingQueues.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P225_ImplementStackUsingQueues.md" />
+              <option name="frontendQuestionId" value="leetcode.cn225" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P225_ImplementStackUsingQueues.cpp" />
+              <option name="titleSlug" value="implement-stack-using-queues" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P2285_MaximumTotalImportanceOfRoads.cpp">
           <value>
             <LeetcodeEditor>
