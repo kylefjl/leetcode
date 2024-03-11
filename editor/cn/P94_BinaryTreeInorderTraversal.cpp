@@ -74,20 +74,43 @@ using namespace std;
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int > out;
-        if(root == nullptr) return out;
-        inorderTraversal(root->left,out);//左子树
-        out.push_back(root->val);//添加到输出vector
-        inorderTraversal(root->right,out);//右子树
-        return std::move(out);//移动复制
+        if(root == nullptr) return out_vector;
+        inorder_iter(root);
+        return std::move(out_vector);//移动复制
     }
     //重载，out_vector 用来储存输出
-    void inorderTraversal(TreeNode*& root,vector<int>& out_vector) {
+    void inorder(TreeNode* root) {
         if(root == nullptr) return ;
-        inorderTraversal(root->left,out_vector);
+        inorder(root->left);
         out_vector.push_back(root->val);
-        inorderTraversal(root->right,out_vector);
+        inorder(root->right);
     }
+
+    //迭代 中序遍历
+    void inorder_iter(TreeNode* root) {
+        if (root == nullptr) return;
+        stack<TreeNode*> node_stack;
+        TreeNode* temp=root;
+        //中序遍历树 左根右  所以出栈跟在左节点入栈之后 ：找到最左边的节点 插入 输出栈 然后找右节点 插入
+         while(temp!=nullptr||!node_stack.empty())// 当前节点不为空或者栈不为空
+        {
+            if(temp!=nullptr)// 当前节点不为空
+            {
+                node_stack.push(temp);//当前节点入栈
+                temp=temp->left;//左节点
+            }
+            else//当前节点为空
+            {
+                temp=node_stack.top();//当前节点出栈
+                node_stack.pop();//出栈
+                out_vector.push_back(temp->val);//
+                temp=temp->right;//右节点
+
+            }
+        }
+    }
+    vector<int > out_vector;
+
 };
 //leetcode submit region end(Prohibit modification and deletion)
 

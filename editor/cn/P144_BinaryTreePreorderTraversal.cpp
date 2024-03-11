@@ -83,7 +83,7 @@ class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         if (root == nullptr) return out;
-        preOrder(root);
+        preOrder_iteration(root);
         return out;
     }
     void preOrder(TreeNode* root)
@@ -92,6 +92,28 @@ public:
         out.push_back(root->val);
         preOrder(root->left);
         preOrder(root->right);
+    }
+    void preOrder_iteration(TreeNode* root)
+    {
+        if (root == nullptr) return;
+        stack<TreeNode*> node;
+        TreeNode* temp;
+        node.push(root );
+        // 中 左 右 顺序 先压右节点再压左节点 保证左节点先出栈 右节点后出栈 访问顺序与前序遍历一致
+        while(!node.empty())
+        {
+            temp=node.top();
+            out.push_back(temp->val);
+            node.pop();
+            if(temp->right!=nullptr){
+
+                node.push(temp->right);
+            }
+            if(temp->left!=nullptr){
+                node.push(temp->left);
+            }
+
+        }
     }
     vector <int> out;
 };

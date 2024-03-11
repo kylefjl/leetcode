@@ -68,7 +68,7 @@ struct TreeNode {
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        postOrder(root);
+        postOrder_iter(root);
         return out;
 
     }
@@ -80,6 +80,36 @@ public:
         out.push_back(root->val);
 
     }
+    void postOrder_iter(TreeNode* root)
+    {
+        if (root == nullptr) return;
+        stack<TreeNode*> node_stack;
+        TreeNode* temp=root;
+        //后序遍历 左右中
+        TreeNode *prev = nullptr; // 前一个节点 用来判断右节点是否已经访问
+        while(temp!=nullptr||!node_stack.empty())// 当前节点不为空或者栈不为空
+        {
+            if(temp!=nullptr)// 当前节点不为空
+            {
+                node_stack.push(temp);//当前节点入栈
+                temp=temp->left;//左节点
+            }
+            else
+            {
+                temp=node_stack.top();// 访问当前节点
+                if(temp->right==nullptr|| temp->right == prev)// 右节点为空或者右节点已经访问
+                {
+                    node_stack.pop();//出栈
+                    out.push_back(temp->val);// 存入结果
+                    prev = temp;// 记录当前节点
+                    temp=nullptr;
+                }
+                else // 右节点不为空 且未访问 右节点入栈
+                    temp=temp->right;
+            }
+        }
+
+    }
 
     vector <int> out;
 };
@@ -88,5 +118,19 @@ public:
 
 int main()
 {
+    //3,1,null,null,2
    Solution s;
+    TreeNode c(3);
+    TreeNode b(2);
+    TreeNode a(1, nullptr, &b);
+    TreeNode root(3,&a,&c);
+
+   auto result= s.postorderTraversal(&root);
+    for(auto item:result)
+    {
+        cout<<item<<endl;
+    }
+    return 0;
+
+
 }
