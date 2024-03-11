@@ -165,3 +165,5 @@ add_executable(P1047_RemoveAllAdjacentDuplicatesInString editor/cn/P1047_RemoveA
 add_executable(P150_EvaluateReversePolishNotation editor/cn/P150_EvaluateReversePolishNotation.cpp)
 
 add_executable(P347_TopKFrequentElements editor/cn/P347_TopKFrequentElements.cpp)
+
+add_executable(P77_Combinations editor/cn/P77_Combinations.cpp)
