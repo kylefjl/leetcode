@@ -157,6 +157,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P144_BinaryTreePreorderTraversal.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P144_BinaryTreePreorderTraversal.md" />
+              <option name="frontendQuestionId" value="leetcode.cn144" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P144_BinaryTreePreorderTraversal.cpp" />
+              <option name="titleSlug" value="binary-tree-preorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P145_BinaryTreePostorderTraversal.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P145_BinaryTreePostorderTraversal.md" />
+              <option name="frontendQuestionId" value="leetcode.cn145" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P145_BinaryTreePostorderTraversal.cpp" />
+              <option name="titleSlug" value="binary-tree-postorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P149_MaxPointsOnALine.cpp">
           <value>
             <LeetcodeEditor>
