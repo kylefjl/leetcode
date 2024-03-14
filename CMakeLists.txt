@@ -175,3 +175,7 @@ add_executable(P145_BinaryTreePostorderTraversal editor/cn/P145_BinaryTreePostor
 add_executable(P107_BinaryTreeLevelOrderTraversalIi editor/cn/P107_BinaryTreeLevelOrderTraversalIi.cpp)
 
 add_executable(P199_BinaryTreeRightSideView editor/cn/P199_BinaryTreeRightSideView.cpp)
+
+add_executable(P637_AverageOfLevelsInBinaryTree editor/cn/P637_AverageOfLevelsInBinaryTree.cpp)
+
+add_executable(P226_InvertBinaryTree editor/cn/P226_InvertBinaryTree.cpp)
