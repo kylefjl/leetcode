@@ -185,3 +185,5 @@ add_executable(P101_SymmetricTree editor/cn/P101_SymmetricTree.cpp)
 add_executable(P104_MaximumDepthOfBinaryTree editor/cn/P104_MaximumDepthOfBinaryTree.cpp)
 
 add_executable(P559_MaximumDepthOfNAryTree editor/cn/P559_MaximumDepthOfNAryTree.cpp)
+
+add_executable(P111_MinimumDepthOfBinaryTree editor/cn/P111_MinimumDepthOfBinaryTree.cpp)
