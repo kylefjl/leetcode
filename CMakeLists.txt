@@ -187,3 +187,5 @@ add_executable(P104_MaximumDepthOfBinaryTree editor/cn/P104_MaximumDepthOfBinary
 add_executable(P559_MaximumDepthOfNAryTree editor/cn/P559_MaximumDepthOfNAryTree.cpp)
 
 add_executable(P111_MinimumDepthOfBinaryTree editor/cn/P111_MinimumDepthOfBinaryTree.cpp)
+
+add_executable(P222_CountCompleteTreeNodes editor/cn/P222_CountCompleteTreeNodes.cpp)

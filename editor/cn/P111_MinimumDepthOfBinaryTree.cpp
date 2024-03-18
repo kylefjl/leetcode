@@ -62,8 +62,10 @@ class Solution {
 public:
     int minDepth(TreeNode* root) {
         if(root==nullptr)return 0;
-        get_minDepth(root,0);
+//        get_minDepth(root,0);
+        minDepth_int= minDepth_bfs(root);
         return minDepth_int;
+
     }
 
     // DFs 递归 递归的参数是当前节点和当前节点的深度
@@ -77,6 +79,32 @@ public:
         get_minDepth(root->left,node_num);//接着递归
         get_minDepth(root->right,node_num);
     }
+    // BFS 迭代 层序遍历
+    int minDepth_bfs(TreeNode *root)
+    {
+        if (root == nullptr)return 0;
+        queue<pair<TreeNode *, int> > que;
+        que.emplace(root, 1);
+        while (!que.empty())
+        {
+            TreeNode *node = que.front().first;
+            int depth = que.front().second;
+            que.pop();
+            if (node->left == nullptr && node->right == nullptr)
+            {
+                return depth;
+            }
+            if (node->left != nullptr)
+            {
+                que.emplace(node->left, depth + 1);
+            }
+            if (node->right != nullptr)
+            {
+                que.emplace(node->right, depth + 1);
+            }
+        }
+        return 0;//不会执行到这里
+    };
     int minDepth_int=INT_MAX;
 
 };
