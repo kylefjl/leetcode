@@ -181,3 +181,7 @@ add_executable(P637_AverageOfLevelsInBinaryTree editor/cn/P637_AverageOfLevelsIn
 add_executable(P226_InvertBinaryTree editor/cn/P226_InvertBinaryTree.cpp)
 
 add_executable(P101_SymmetricTree editor/cn/P101_SymmetricTree.cpp)
+
+add_executable(P104_MaximumDepthOfBinaryTree editor/cn/P104_MaximumDepthOfBinaryTree.cpp)
+
+add_executable(P559_MaximumDepthOfNAryTree editor/cn/P559_MaximumDepthOfNAryTree.cpp)
