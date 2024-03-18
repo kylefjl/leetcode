@@ -179,3 +179,5 @@ add_executable(P199_BinaryTreeRightSideView editor/cn/P199_BinaryTreeRightSideVi
 add_executable(P637_AverageOfLevelsInBinaryTree editor/cn/P637_AverageOfLevelsInBinaryTree.cpp)
 
 add_executable(P226_InvertBinaryTree editor/cn/P226_InvertBinaryTree.cpp)
+
+add_executable(P101_SymmetricTree editor/cn/P101_SymmetricTree.cpp)
