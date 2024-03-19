@@ -191,3 +191,5 @@ add_executable(P111_MinimumDepthOfBinaryTree editor/cn/P111_MinimumDepthOfBinary
 add_executable(P222_CountCompleteTreeNodes editor/cn/P222_CountCompleteTreeNodes.cpp)
 
 add_executable(P257_BinaryTreePaths editor/cn/P257_BinaryTreePaths.cpp)
+
+add_executable(P404_SumOfLeftLeaves editor/cn/P404_SumOfLeftLeaves.cpp)
