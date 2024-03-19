@@ -77,6 +77,7 @@ public:
     {
         return height(root) >=0;
     }
+    // 时间复杂度 o（n）
     int height(TreeNode*& root) {
         if (root == nullptr) {
             return 0;

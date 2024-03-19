@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P110_BalancedBinaryTree.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P110_BalancedBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.cn110" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P110_BalancedBinaryTree.cpp" />
+              <option name="titleSlug" value="balanced-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P1114_PrintInOrder.cpp">
           <value>
             <LeetcodeEditor>
@@ -539,6 +550,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/P24_SwapNodesInPairs.cpp" />
               <option name="titleSlug" value="swap-nodes-in-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P257_BinaryTreePaths.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P257_BinaryTreePaths.md" />
+              <option name="frontendQuestionId" value="leetcode.cn257" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P257_BinaryTreePaths.cpp" />
+              <option name="titleSlug" value="binary-tree-paths" />
             </LeetcodeEditor>
           </value>
         </entry>
