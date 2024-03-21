@@ -193,3 +193,5 @@ add_executable(P222_CountCompleteTreeNodes editor/cn/P222_CountCompleteTreeNodes
 add_executable(P257_BinaryTreePaths editor/cn/P257_BinaryTreePaths.cpp)
 
 add_executable(P404_SumOfLeftLeaves editor/cn/P404_SumOfLeftLeaves.cpp)
+
+add_executable(P106_ConstructBinaryTreeFromInorderAndPostorderTraversal editor/cn/P106_ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp)

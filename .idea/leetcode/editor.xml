@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P106_ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P106_ConstructBinaryTreeFromInorderAndPostorderTraversal.md" />
+              <option name="frontendQuestionId" value="leetcode.cn106" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P106_ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
+              <option name="titleSlug" value="construct-binary-tree-from-inorder-and-postorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P107_BinaryTreeLevelOrderTraversalIi.cpp">
           <value>
             <LeetcodeEditor>
