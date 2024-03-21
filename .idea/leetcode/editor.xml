@@ -872,6 +872,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P654_MaximumBinaryTree.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P654_MaximumBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.cn654" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P654_MaximumBinaryTree.cpp" />
+              <option name="titleSlug" value="maximum-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P661_ImageSmoother.cpp">
           <value>
             <LeetcodeEditor>
