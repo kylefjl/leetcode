@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P1036_EscapeALargeMaze.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P1036_EscapeALargeMaze.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1036" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P1036_EscapeALargeMaze.cpp" />
+              <option name="titleSlug" value="escape-a-large-maze" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P1047_RemoveAllAdjacentDuplicatesInString.cpp">
           <value>
             <LeetcodeEditor>
@@ -275,6 +286,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/P1557_MinimumNumberOfVerticesToReachAllNodes.cpp" />
               <option name="titleSlug" value="minimum-number-of-vertices-to-reach-all-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P1584_MinCostToConnectAllPoints.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P1584_MinCostToConnectAllPoints.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1584" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P1584_MinCostToConnectAllPoints.cpp" />
+              <option name="titleSlug" value="min-cost-to-connect-all-points" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -927,6 +949,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P743_NetworkDelayTime.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P743_NetworkDelayTime.md" />
+              <option name="frontendQuestionId" value="leetcode.cn743" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P743_NetworkDelayTime.cpp" />
+              <option name="titleSlug" value="network-delay-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P75_SortColors.cpp">
           <value>
             <LeetcodeEditor>
@@ -982,6 +1015,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/P980_UniquePathsIii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/P980_UniquePathsIii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn980" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/P980_UniquePathsIii.cpp" />
+              <option name="titleSlug" value="unique-paths-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/P98_ValidateBinarySearchTree.cpp">
           <value>
             <LeetcodeEditor>
@@ -1001,6 +1045,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/P295_FindMedianFromDataStream.cpp" />
               <option name="titleSlug" value="find-median-from-data-stream" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/PLCR 116_BLyHh0.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/PLCR 116_BLyHh0.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 116" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/PLCR 116_BLyHh0.cpp" />
+              <option name="titleSlug" value="bLyHh0" />
             </LeetcodeEditor>
           </value>
         </entry>

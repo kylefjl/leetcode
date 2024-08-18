@@ -197,3 +197,5 @@ add_executable(P404_SumOfLeftLeaves editor/cn/P404_SumOfLeftLeaves.cpp)
 add_executable(P106_ConstructBinaryTreeFromInorderAndPostorderTraversal editor/cn/P106_ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp)
 
 add_executable(P654_MaximumBinaryTree editor/cn/P654_MaximumBinaryTree.cpp)
+
+add_executable(P980_UniquePathsIii editor/cn/P980_UniquePathsIii.cpp)

@@ -55,77 +55,78 @@ using namespace std;
 * @date 2023-01-27 22:37:55
 */
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-public://floyd 算法
-    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        const int INF=numeric_limits<int>::max()/2;
-        const int edge_num=times.size();
-        vector<vector<int>> d(n,vector<int>(n,INF));//邻接表
-        for(int i=0;i<edge_num;++i)//初始化d，d[i][j]代表i到j的距离
-        {
-            d[times[i][0]-1][times[i][1]-1]=times[i][2];
-        }
-        for (int i = 0; i<n; ++i) d[i][i] = 0;//i到i的距离为0
-        for (int m = 0; m < n; ++m){
-            for (int i = 0; i<n; ++i){
-                for (int j =0; j<n; ++j){//每次更新i经过k到j的距离
-                    d[i][j] = min(d[i][j], d[i][m] + d[m][j]);
-                }
-            }
-        }
-        //获取到达时间的最大值
-        auto max_time=*max_element(d[k-1].begin(), d[k-1].end());
-        return max_time==INF?-1: max_time ;//如果等于INF，则认为有不能到达的点，返回-1
-    }
-};
-//leetcode submit region end(Prohibit modification and deletion)
-
-// -----------------------Dijkstra---------------------------
 //class Solution {
-//public:
+//public://floyd 算法
 //    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
 //        const int INF=numeric_limits<int>::max()/2;
 //        const int edge_num=times.size();
-//        vector<vector<pair<int,int>>> edge(n);//邻接表
-//        forward_list<int> newPointList;//还未确定最小到达时间的节点序列
-//        for(int i=0;i<n;++i)newPointList.insert_after(newPointList.cbefore_begin(),i);
-//        for(int i=0;i<n;++i)edge[i].reserve(n);//预留空间
-//        for(int i=0;i<edge_num;++i)//创建邻接表
+//        vector<vector<int>> d(n,vector<int>(n,INF));//邻接表
+//        for(int i=0;i<edge_num;++i)//初始化d，d[i][j]代表i到j的距离
 //        {
-//            edge[times[i][0]-1].emplace_back(times[i][1]-1,times[i][2]);
+//            d[times[i][0]-1][times[i][1]-1]=times[i][2];
 //        }
-//        vector<int> minTime(n,INF);//最小到达时间数组
-//        minTime[k-1]=0;//初始点到达时间为0
-//        int min=0,min_idx=0;//最小边的权重和序列号
-//        forward_list<int>::iterator min_it,last_it;//list 迭代器
-//        while(true)
-//        {
-//            min=INF;//初始给个最大值
-//            min_idx=-1;//给个不可能的序列
-//            last_it=newPointList.before_begin();
-//            for(auto beg=newPointList.begin();beg!=newPointList.end();++beg)
-//            {
-//                if(minTime[*beg]<min)
-//                {
-//                    min=minTime[*beg];
-//                    min_idx=*beg;
-//                    min_it=last_it;
+//        for (int i = 0; i<n; ++i) d[i][i] = 0;//i到i的距离为0
+//        for (int m = 0; m < n; ++m){
+//            for (int i = 0; i<n; ++i){
+//                for (int j =0; j<n; ++j){//每次更新i经过k到j的距离
+//                    d[i][j] = min(d[i][j], d[i][m] + d[m][j]);
 //                }
-//                last_it=beg;
 //            }
-//            if(min_idx==-1)//说明没有可以到达但未到达的点了
-//                break;//
-//            newPointList.erase_after(min_it);//在未连接列表内删除这次连接的节点
-//            for(auto j:edge[min_idx])//更新minTime
-//            {
-//                if(j.second+minTime[min_idx]<minTime[j.first])
-//                    minTime[j.first]=j.second+minTime[min_idx];
-//            }
-//        }//获取到达时间的最大值
-//        auto max_time=*max_element(minTime.begin(), minTime.end());
+//        }
+//        //获取到达时间的最大值
+//        auto max_time=*max_element(d[k-1].begin(), d[k-1].end());
 //        return max_time==INF?-1: max_time ;//如果等于INF，则认为有不能到达的点，返回-1
 //    }
 //};
+//leetcode submit region end(Prohibit modification and deletion)
+
+// -----------------------Dijkstra---------------------------
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        const int INF=numeric_limits<int>::max()/2;
+        const int edge_num=times.size();
+        vector<vector<pair<int,int>>> edge(n);//邻接表
+        forward_list<int> newPointList;//还未确定最小到达时间的节点序列
+        for(int i=0;i<n;++i)newPointList.insert_after(newPointList.cbefore_begin(),i);
+        for(int i=0;i<n;++i)edge[i].reserve(n);//预留空间
+        for(int i=0;i<edge_num;++i)//创建邻接表
+        {
+            edge[times[i][0]-1].emplace_back(times[i][1]-1,times[i][2]);
+        }
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> q;
+        vector<int> minTime(n,INF);//最小到达时间数组
+        minTime[k-1]=0;//初始点到达时间为0
+        int min=0,min_idx=0;//最小边的权重和序列号
+        forward_list<int>::iterator min_it,last_it;//list 迭代器
+        while(true)
+        {
+            min=INF;//初始给个最大值
+            min_idx=-1;//给个不可能的序列
+            last_it=newPointList.before_begin();
+            for(auto beg=newPointList.begin();beg!=newPointList.end();++beg)
+            {
+                if(minTime[*beg]<min)
+                {
+                    min=minTime[*beg];
+                    min_idx=*beg;
+                    min_it=last_it;
+                }
+                last_it=beg;
+            }
+            if(min_idx==-1)//说明没有可以到达但未到达的点了
+                break;//
+            newPointList.erase_after(min_it);//在未连接列表内删除这次连接的节点
+            for(auto j:edge[min_idx])//更新minTime
+            {
+                if(j.second+minTime[min_idx]<minTime[j.first])
+                    minTime[j.first]=j.second+minTime[min_idx];
+            }
+        }//获取到达时间的最大值
+        auto max_time=*max_element(minTime.begin(), minTime.end());
+        return max_time==INF?-1: max_time ;//如果等于INF，则认为有不能到达的点，返回-1
+    }
+};
 
 int main()
 {
